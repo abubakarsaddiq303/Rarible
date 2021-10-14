@@ -3,6 +3,7 @@ import './Rerible.css';
 import Navbar from './Navbar';
 import HeaderSection from './HeaderSection';
 import Hot from './Hot';
+import Top from './Top';
 
 import MainContent from './MainContent';
 
@@ -17,6 +18,7 @@ export default function App() {
        <HeaderSection/>
        <MainContent/>
        <Hot/>
+       <Top/>
       
             
         </>

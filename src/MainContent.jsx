@@ -1,6 +1,12 @@
 
 import React from 'react';
 import Card from './card';
+import {MDBDropdown,
+  MDBDropdownToggle,
+  MDBDropdownMenu,
+  MDBDropdownItem,
+  MDBDropdownLink
+}from 'mdb-react-ui-kit';
 
 export default function MainContent() {
   const arr=[1,2,3,4,5,6,7,8,9,10,11,12];
@@ -8,13 +14,23 @@ export default function MainContent() {
     return (
         <>
         <div className='d-flex mt-2  '>
-          <div><h1>Top Collection in</h1></div>
-            <div className='ml-2 mr-6 select'><select className=' font-weight-bold' style={{color:'blue'}} >
-  <option selected>days</option>
-  <option value="1">1 day</option>
-  <option value="2">2 days</option>
-  <option value="3">one week</option>
-</select></div>
+          <div><h2>Top Collection in</h2></div>
+          <MDBDropdown>
+                <MDBDropdownToggle tag='a' className='nav-link Navlink' >
+                  Days
+                </MDBDropdownToggle>
+                <MDBDropdownMenu>
+                  <MDBDropdownItem>
+                    <MDBDropdownLink>Day 1</MDBDropdownLink>
+                  </MDBDropdownItem>
+                  <MDBDropdownItem>
+                    <MDBDropdownLink>DAY 2</MDBDropdownLink>
+                  </MDBDropdownItem>
+                  <MDBDropdownItem>
+                    <MDBDropdownLink>One week</MDBDropdownLink>
+                  </MDBDropdownItem>
+                </MDBDropdownMenu>
+              </MDBDropdown>
         </div>
         <div className='row'>
          

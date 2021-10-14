@@ -5,7 +5,7 @@
  }
  .Reriblesize{
      font-weight: bold;
-     font-size: 1.8rem;
+     font-size: 1.4rem;
  }
  .TopSpan{
      width: 100%;
@@ -22,8 +22,8 @@
  }
  
 .navbaritem{
-     margin-left: 1.1rem;
-     font-size: 1.2rem;
+     margin-left: 1.2rem;
+     font-size: 1.1rem;
      
  }
  .Navcontainer{
@@ -42,7 +42,7 @@
      
  }
 .navbtn.create:hover{
-    background-image: linear-gradient(to left,blue,rgb(22, 19, 209));
+    background-image: linear-gradient(to left,rgb(0, 0, 255),rgb(4, 0, 255));
 
  }
  .Navlink{
@@ -53,20 +53,42 @@
      color: black;
  }
  .FirstCol{
-     margin: 0%;
+     margin: 0;
      padding: 0%;
-     height: 600px;
-     border: black solid 2px;
+     padding-left: 8%;
+     height: 650px;
+     font-weight: bold;
+     border-radius: 5%;
+     border: black solid 0px;
  }
- .SecondCol{
-     
-     border: red solid 2px;
- }
+ 
+ 
  .Ssubcol{
-     width: 30%;
-     height: 250px;
-     border: blue solid 1px;
+     height: 600px;
+     width: 100%;
+     margin: 10%;
+     padding-bottom: 0%;
+     border-radius: 5%;
+     border: solid 1px;
  }
+ .mywidth
+ {
+     width: 100% !important;
+     height: 100% !important;
+     
+ }
+ .Swidth
+ {
+     width: 100% !important;
+     height: 60% !important;
+     
+ }
+ .col-md-3 col-sm-5  Ssubcol  m-2 {
+    margin: auto;
+   width: 50px;
+   height: 100%;
+   border-radius: 5%;
+}
  .row{
      margin-left: 0%;
      margin-right: 0%;
@@ -90,6 +112,7 @@
     height: 100px;
     border-radius: 50%;
  }
+ 
  .cardbody{
      margin-top: 50px;
      margin-left: 35px;
@@ -100,4 +123,10 @@
      margin-right: 5px;
      font-size: 1.5rem;
      font-weight: bold;
+ }
+ .Bimg{
+width: 100% !important;
+
+    height: 50% !important;
+    border-radius: 5%;
  }
