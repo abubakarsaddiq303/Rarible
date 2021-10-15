@@ -30,8 +30,8 @@ export default function Navbar() {
 
   return (
     
-    <MDBNavbar expand='lg' className='mb-3 pt-2' >
-      <MDBContainer fluid className='Navcontainer mt-sm-3'>
+    <MDBNavbar expand='lg' className='' >
+      <MDBContainer fluid className='Navcontainer '>
         <MDBNavbarBrand href='#'><img src={Rlogo} alt=" NOthing" style={{height:'3.3rem'}} /></MDBNavbarBrand>
         <div className='navbar-text'><span><strong className='Reriblesize'>Rarible</strong></span></div>
        
@@ -45,10 +45,10 @@ export default function Navbar() {
         </MDBNavbarToggler>
 
         <MDBCollapse navbar show={showBasic}>
-          <MDBNavbarNav className='mr-auto mb-2 mb-lg-0 navabrnav'>
+          <MDBNavbarNav className=''>
           <form className='d-flex input-group w-auto'>
             
-            <input   type='search' className='form-control' placeholder='SEARCH' aria-label='Search' style={{borderRadius:'2.5rem',width:'20rem',height:'3rem'}} />
+            <input   type='search' className='form-control' placeholder='Collection,item or user' aria-label='Search' style={{borderRadius:'2.5rem',width:'30rem',height:'3rem',}} />
                    
                  </form>
             <MDBNavbarItem className='navbaritem' >

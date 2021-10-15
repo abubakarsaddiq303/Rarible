@@ -3,7 +3,7 @@ import { MDBCard, MDBCardBody, MDBCardText, MDBCardImage } from 'mdb-react-ui-ki
 
 
 
-export default function Hot () {E
+export default function Hot () {
    
 return(
 

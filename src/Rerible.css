@@ -20,25 +20,45 @@
      
      
  }
+ .Navbar{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around !important;
+    flex-wrap: nowrap;
+      margin-left:20px !important;
+ }
  
 .navbaritem{
-     margin-left: 1.2rem;
-     font-size: 1.1rem;
+    list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around !important;
+  flex-wrap: nowrap;
+    margin-left:20px !important;
+     
+     font-size: 1.0rem;
+     padding: 5px;
      
  }
+ .form{
+     padding-left: 20% !important;
+ }
  .Navcontainer{
-     margin-left: 2rem;
+     margin-left: 2.0rem;
  }
  .Moonpic{
-     font-size: 1.1rem;
+     font-size: 1.0rem;
      transform: rotate(270deg);
  }
  .navbtn{
-     width: 8rem;
+     width: 6rem;
      height: 3rem;
  }
  .navbtn.create{
-     background-image: linear-gradient(to right,blue,rgb(196, 14, 156));
+     background-image: linear-gradient(to right,blue,rgb(255, 0, 200));
      
  }
 .navbtn.create:hover{
@@ -53,14 +73,16 @@
      color: black;
  }
  .FirstCol{
-     margin: 0;
+     margin: 0%;
      padding: 0%;
-     padding-left: 8%;
+     padding-left: 6%;
      height: 650px;
      font-weight: bold;
      border-radius: 5%;
      border: black solid 0px;
- }
+     margin-right: auto!important;
+    margin-left: auto!important;
+}
  
  
  .Ssubcol{
@@ -70,6 +92,8 @@
      padding-bottom: 0%;
      border-radius: 5%;
      border: solid 1px;
+     margin-right: auto!important;
+    margin-left: auto!important;
  }
  .mywidth
  {
@@ -84,6 +108,8 @@
      
  }
  .col-md-3 col-sm-5  Ssubcol  m-2 {
+    margin-right: auto!important;
+    margin-left: auto!important;
     margin: auto;
    width: 50px;
    height: 100%;
@@ -103,7 +129,7 @@
      margin-left: 8px; 
      font-size: 40px;
  }
- card{
+ .card{
      width: 300px;
  }
  .Cimg{
@@ -130,3 +156,47 @@ width: 100% !important;
     height: 50% !important;
     border-radius: 5%;
  }
+ .Bimg { max-width: 100%; }
+ .Cimg { max-width: 100%; }
+ 
+    
+      @media only screen and (min-width: 600px) {
+        
+        .navbaritem {width: 8.33%;}
+        .navbaritem {width: 16.66%;}
+        .navbaritem {width: 25%;}
+        .navbaritem {width: 33.33%;}
+        .cnavbaritem {width: 41.66%;}
+        .navbaritem {width: 50%;}
+        .cnavbaritem {width: 58.33%;}
+        .cnavbaritem {width: 66.66%;}
+        .navbaritem {width: 75%;}
+        .navbaritem {width: 83.33%;}
+        .navbaritem {width: 91.66%;}
+        .navbaritem {width: 100%;}
+      }
+      @media only screen and (min-width: 768px) {
+        /* For desktop: */
+        .Bimg {width: 8.33%;}
+        .Bimg {width: 16.66%;}
+        .Bimg {width: 25%;}
+        .Bimg {width: 33.33%;}
+        .Bimg {width: 41.66%;}
+        .Bimg {width: 50%;}
+        .Bimg {width: 58.33%;}
+        .Bimg {width: 66.66%;}
+        .Bimg {width: 75%;}
+        .Bimg {width: 83.33%;}
+        .Bimg {width: 91.66%;}
+        .Bimg {width: 100%;}
+        .Bimg {align-items: center;}
+      }
+      [class*="HeaderSection"] {
+        width: 100%;
+      }
+      .card{
+        display: block;
+      }
+     
+      
+    
