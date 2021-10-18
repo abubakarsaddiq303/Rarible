@@ -15,11 +15,12 @@
      
      color: white;
  }
- input{
-     margin-left: 1rem;
+ /*input{
+    margin-left: 1rem;
      
      
  }
+ */
  .Navbar{
     list-style-type: none;
     padding: 0;
@@ -37,7 +38,7 @@
   flex-direction: row;
   justify-content: space-around !important;
   flex-wrap: nowrap;
-    margin-left:20px !important;
+   /* margin-left:10px !important;*/
      
      font-size: 1.0rem;
      padding: 5px;
@@ -47,7 +48,7 @@
      padding-left: 20% !important;
  }
  .Navcontainer{
-     margin-left: 2.0rem;
+     margin-left: 1.0rem;
  }
  .Moonpic{
      font-size: 1.0rem;
@@ -62,7 +63,8 @@
      
  }
 .navbtn.create:hover{
-    background-image: linear-gradient(to left,rgb(0, 0, 255),rgb(4, 0, 255));
+    background-image: linear-gradient(to left,rgb(0, 17, 255),rgb(255, 0, 234));
+   
 
  }
  .Navlink{
@@ -72,10 +74,35 @@
  .Navlink:hover{
      color: black;
  }
+ .formInput{
+     display: flex;
+     align-items: center !important;
+     
+ }
+ .navbarItem
+ {display: flex;
+    align-items: center !important;
+    font-size: 15px;
+    
+
+ }
+ .mProfile{
+     width: 100px !important;
+ }
+ .Works{
+    width: 120px !important;
+}
+ 
+ .Row{
+    display: flex;
+    align-items: baseline;
+    align-items: center !important;
+    padding-left: 50px;
+ }
  .FirstCol{
      margin: 0%;
      padding: 0%;
-     padding-left: 6%;
+     
      height: 650px;
      font-weight: bold;
      border-radius: 5%;
@@ -86,9 +113,8 @@
  
  
  .Ssubcol{
-     height: 600px;
-     width: 100%;
-     margin: 10%;
+    
+     margin: 100% !important;
      padding-bottom: 0%;
      border-radius: 5%;
      border: solid 1px;
@@ -103,34 +129,40 @@
  }
  .Swidth
  {
-     width: 100% !important;
-     height: 60% !important;
+     width: 500% !important;
+     height: 65% !important;
      
  }
  .col-md-3 col-sm-5  Ssubcol  m-2 {
     margin-right: auto!important;
     margin-left: auto!important;
-    margin: auto;
+    
    width: 50px;
    height: 100%;
    border-radius: 5%;
 }
- .row{
-     margin-left: 0%;
-     margin-right: 0%;
-     padding-left: 0%;
-     padding-right: 0%;
- }
+ .rowHot{
+
+    display: flex;
+    align-items: center !important;
+    width: 20%;
+    min-width: 100%;
+    padding-left: 10px;
+    
+}
  select{
     border:none;
     outline:none;
  }
  .select{
-     margin-left: 8px; 
+     margin-left: 5px; 
      font-size: 40px;
  }
  .card{
      width: 300px;
+ }
+ .Card{
+     padding-bottom: 10% !important;
  }
  .Cimg{
      margin: 40px;
@@ -151,52 +183,53 @@
      font-weight: bold;
  }
  .Bimg{
+    display: flex;
+    align-items: center !important;
 width: 100% !important;
 
-    height: 50% !important;
+    height: 30% !important;
     border-radius: 5%;
  }
- .Bimg { max-width: 100%; }
+ .fa-ellipsis-h{
+     padding-left: 90%;
+     width: 8% !important;
+     
+ }
+ .infinite{
+     border-width: 2px;
+     border-color: brown;
+     
+     
+    width:8%;
+    border-radius: 50%
+  }
+  .infinite:hover{
+    border-color: brown;
+  }
+ 
  .Cimg { max-width: 100%; }
  
     
-      @media only screen and (min-width: 600px) {
+      @media   (min-width: 1200px) {
         
-        .navbaritem {width: 8.33%;}
-        .navbaritem {width: 16.66%;}
-        .navbaritem {width: 25%;}
-        .navbaritem {width: 33.33%;}
-        .cnavbaritem {width: 41.66%;}
-        .navbaritem {width: 50%;}
-        .cnavbaritem {width: 58.33%;}
-        .cnavbaritem {width: 66.66%;}
-        .navbaritem {width: 75%;}
-        .navbaritem {width: 83.33%;}
-        .navbaritem {width: 91.66%;}
-        .navbaritem {width: 100%;}
+        
       }
-      @media only screen and (min-width: 768px) {
-        /* For desktop: */
-        .Bimg {width: 8.33%;}
-        .Bimg {width: 16.66%;}
-        .Bimg {width: 25%;}
-        .Bimg {width: 33.33%;}
-        .Bimg {width: 41.66%;}
-        .Bimg {width: 50%;}
-        .Bimg {width: 58.33%;}
-        .Bimg {width: 66.66%;}
-        .Bimg {width: 75%;}
-        .Bimg {width: 83.33%;}
-        .Bimg {width: 91.66%;}
-        .Bimg {width: 100%;}
-        .Bimg {align-items: center;}
+
+      @media(max-width: 990px) {
+      
+
       }
-      [class*="HeaderSection"] {
-        width: 100%;
-      }
-      .card{
-        display: block;
-      }
-     
+      @media(max-width: 800px) {
+      
+
+    }
+    @media(max-width: 600px) {
+      
+
+    }
+    @media(max-width: 480 px) {
+      
+
+    }
       
     

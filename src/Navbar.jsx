@@ -46,30 +46,32 @@ export default function Navbar() {
 
         <MDBCollapse navbar show={showBasic}>
           <MDBNavbarNav className=''>
-          <form className='d-flex input-group w-auto'>
+            
+          <form className='d-flex input-group w-auto formInput'>
             
             <input   type='search' className='form-control' placeholder='Collection,item or user' aria-label='Search' style={{borderRadius:'2.5rem',width:'30rem',height:'3rem',}} />
                    
                  </form>
-            <MDBNavbarItem className='navbaritem' >
+                 
+            <MDBNavbarItem className='navbaritem navbarItem w-auto'  >
               <MDBNavbarLink active color='dark' aria-current='page' href='#' className='Navlink'>
                 Explore
               </MDBNavbarLink>
             </MDBNavbarItem>
-            <MDBNavbarItem className='navbaritem'>
-              <MDBNavbarLink href='#' className='Navlink'>My Profie</MDBNavbarLink>
+            <MDBNavbarItem className='navbaritem navbarItem mProfile'>
+              <MDBNavbarLink href='#' className='Navlink'>My Profile</MDBNavbarLink>
             </MDBNavbarItem>
-            <MDBNavbarItem className='navbaritem'>
+            <MDBNavbarItem className='navbaritem navbarItem w-auto '>
               <MDBNavbarLink href='#' className='Navlink'>Following</MDBNavbarLink>
             </MDBNavbarItem>
-            <MDBNavbarItem className='navbaritem'>
+            <MDBNavbarItem className='navbaritem navbarItem w-auto'>
               <MDBNavbarLink href='#' className='Navlink'>Activity</MDBNavbarLink>
             </MDBNavbarItem>
-            <MDBNavbarItem className='navbaritem'>
+            <MDBNavbarItem className='navbaritem navbarItem Works'>
               <MDBNavbarLink href='#' className='Navlink'>How it Works</MDBNavbarLink>
             </MDBNavbarItem>
         
-            <MDBNavbarItem className='navbaritem'>
+            <MDBNavbarItem className='navbaritem navbarItem w-auto'>
               <MDBDropdown>
                 <MDBDropdownToggle tag='a' className='nav-link Navlink' >
                   Community
@@ -111,3 +113,4 @@ export default function Navbar() {
     
   );
 }
+
