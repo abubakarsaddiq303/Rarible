@@ -15,12 +15,12 @@
      
      color: white;
  }
- /*input{
+ input{
     margin-left: 1rem;
      
      
  }
- */
+ 
  .Navbar{
     list-style-type: none;
     padding: 0;
@@ -59,7 +59,7 @@
      height: 3rem;
  }
  .navbtn.create{
-     background-image: linear-gradient(to right,blue,rgb(255, 0, 200));
+     background-image: linear-gradient(to right,rgb(0, 0, 255),rgb(255, 0, 200));
      
  }
 .navbtn.create:hover{
@@ -75,14 +75,16 @@
      color: black;
  }
  .formInput{
+     
      display: flex;
      align-items: center !important;
      
  }
- .navbarItem
- {display: flex;
+ .navbarItem{
+     display: flex;
     align-items: center !important;
     font-size: 15px;
+     color:rgb(159, 167, 175);
     
 
  }
@@ -93,17 +95,18 @@
     width: 120px !important;
 }
  
- .Row{
+ .row{
+     width: 100%;
     display: flex;
     align-items: baseline;
     align-items: center !important;
-    padding-left: 50px;
+    padding-right: 100px;
  }
  .FirstCol{
      margin: 0%;
-     padding: 0%;
+     padding-left: 0%;
      
-     height: 650px;
+     height: 600px;
      font-weight: bold;
      border-radius: 5%;
      border: black solid 0px;
@@ -116,8 +119,9 @@
     
      margin: 100% !important;
      padding-bottom: 0%;
-     border-radius: 5%;
-     border: solid 1px;
+     padding-left: 0%;
+     border-radius: 10%;
+     
      margin-right: auto!important;
     margin-left: auto!important;
  }
@@ -129,7 +133,7 @@
  }
  .Swidth
  {
-     width: 500% !important;
+     width: 100% !important;
      height: 65% !important;
      
  }
@@ -146,50 +150,42 @@
     display: flex;
     align-items: center !important;
     width: 20%;
-    min-width: 100%;
-    padding-left: 10px;
+    min-width: 95%;
+    padding-left: 20px;
     
 }
- select{
-    border:none;
-    outline:none;
- }
+ 
+ 
  .select{
      margin-left: 5px; 
      font-size: 40px;
  }
  .card{
-     width: 300px;
- }
- .Card{
-     padding-bottom: 10% !important;
- }
- .Cimg{
-     margin: 40px;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    box-sizing: border-box;
+     width: 200px;
+     justify-content: space-around !important;
  }
  
- .cardbody{
-     margin-top: 50px;
-     margin-left: 35px;
- }
- .para{
-     margin-top: 50px;
-     margin-left: 20px;
-     margin-right: 5px;
-     font-size: 1.5rem;
-     font-weight: bold;
+ 
+ .Cimg{
+     box-sizing: border-box;
+     margin: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius:0%;
  }
  .Bimg{
-    display: flex;
-    align-items: center !important;
-width: 100% !important;
-
-    height: 30% !important;
-    border-radius: 5%;
+    grid-gap:5%;
  }
+ .cardbody{
+     width: 20% !important;
+     margin-top: 15px;
+     margin-left: 15px;
+ }
+ 
+ 
+ 
+ 
  .fa-ellipsis-h{
      padding-left: 90%;
      width: 8% !important;
@@ -197,39 +193,49 @@ width: 100% !important;
  }
  .infinite{
      border-width: 2px;
-     border-color: brown;
+     border-color: rgb(180, 38, 38);
      
      
-    width:8%;
+    width:6%;
     border-radius: 50%
   }
   .infinite:hover{
     border-color: brown;
   }
  
- .Cimg { max-width: 100%; }
+ 
  
     
       @media   (min-width: 1200px) {
         
-        
+        .navBar{
+            width: auto !important;
+        }
       }
 
       @media(max-width: 990px) {
       
+        .mProfile{
+            width: auto !important;
+        }
+        .Works{
+            width: auto !important;
+        }
 
       }
-      @media(max-width: 800px) {
       
+    @media screen and (min-width: 480px) {
+          
+          }
 
-    }
+   
     @media(max-width: 600px) {
       
 
     }
-    @media(max-width: 480 px) {
-      
-
+     
+    @media(max-width: 415px) {
+       
     }
-      
+     
     
