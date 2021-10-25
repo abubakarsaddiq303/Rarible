@@ -59,7 +59,7 @@
      height: 3rem;
  }
  .navbtn.create{
-     background-image: linear-gradient(to right,rgb(0, 0, 255),rgb(255, 0, 200));
+     background-image: linear-gradient(to right,rgb(0, 0, 255),rgb(231, 34, 188));
      
  }
 .navbtn.create:hover{
@@ -103,8 +103,6 @@
     padding-right: 100px;
  }
  .FirstCol{
-     margin: 0%;
-     padding-left: 0%;
      
      height: 600px;
      font-weight: bold;
@@ -191,17 +189,8 @@
      width: 8% !important;
      
  }
- .infinite{
-     border-width: 2px;
-     border-color: rgb(180, 38, 38);
-     
-     
-    width:6%;
-    border-radius: 50%
-  }
-  .infinite:hover{
-    border-color: brown;
-  }
+ 
+
  
  
  
@@ -237,5 +226,3 @@
     @media(max-width: 415px) {
        
     }
-     
-    

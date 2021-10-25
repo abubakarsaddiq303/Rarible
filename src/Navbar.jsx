@@ -107,10 +107,22 @@ export default function Navbar() {
       <BsFillMoonFill className=' mt-2  Moonpic '/>
       </MDBBtn>
             </div>
-      </MDBContainer>
-    </MDBNavbar>
-    
-    
-  );
-}
 
+      </MDBContainer>
+      
+    </MDBNavbar>
+
+    
+    
+
+
+
+
+
+
+  );
+
+
+
+
+}

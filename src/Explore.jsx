@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBCard, MDBCardBody, MDBCardText, MDBCardImage, } from 'mdb-react-ui-kit';
+import { MDBCard, MDBCardBody, MDBCardText, MDBCardImage, MDBBtn } from 'mdb-react-ui-kit';
 
 
 
@@ -10,7 +10,36 @@ return(
     <>
     <div>
       <div className='d-flex mt-2 '>
-          <div><h1>Hot bids 🔥</h1></div>
+          <div><h1>Explore</h1></div>
+          <div className='navbaritem'>
+            <MDBBtn rounded className='mx-0 navbtn sign' color='light' style={{margin:'0%'}}>
+       Category
+      </MDBBtn>
+            </div>
+
+            <div className='navbaritem'>
+            <MDBBtn rounded className='mx-0 navbtn sign' color='light' style={{margin:'0%'}}>
+       Collection
+      </MDBBtn>
+            </div>
+
+            <div className='navbaritem'>
+            <MDBBtn rounded className='mx-0 navbtn sign' color='light' style={{margin:'0%'}}>
+       Sale type
+      </MDBBtn>
+            </div>
+
+            <div className='navbaritem'>
+            <MDBBtn rounded className='mx-0 navbtn sign' color='light' style={{margin:'0%'}}>
+       Price range
+      </MDBBtn>
+            </div>
+
+            <div className='navbaritem'>
+            <MDBBtn rounded className='mx-0 navbtn sign' color='light' style={{margin:'0%'}}>
+        Recently added
+      </MDBBtn>
+            </div>
           
 </div>
 
@@ -94,6 +123,12 @@ return(
   </div>
 </div>
  
+
+<div className='navbaritem'>
+            <MDBBtn rounded className='mx-2 navbtn create' color='secondary'style={{borderRadius:'2.5rem',width:'80rem',height:'3rem',}} >
+        Load more
+      </MDBBtn>
+            </div>
          
     </>
     

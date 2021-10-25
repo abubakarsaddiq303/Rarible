@@ -1,16 +1,17 @@
-import React from 'react';
-import { MDBCard, MDBCardBody, MDBCardText, MDBCardImage, } from 'mdb-react-ui-kit';
+import React from 'react'
+import Card from './card';
+import { MDBCard, MDBCardTitle, MDBCardText, MDBCardBody, MDBCardImage, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 
 
 
-export default function Hot () {
-   
-return(
+export default function auctions () {
+  const arr=[1,2,3,4,5];
 
-    <>
-    <div>
+    return (
+        <>
+        <div>
       <div className='d-flex mt-2 '>
-          <div><h1>Hot bids 🔥</h1></div>
+          <div><h1>Live auctions 🔥</h1></div>
           
 </div>
 
@@ -93,10 +94,6 @@ return(
   </div>
   </div>
 </div>
- 
-         
-    </>
-    
-)
-
+        </>
+    )
 }
