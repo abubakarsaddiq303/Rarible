@@ -5,7 +5,6 @@ import Rlogo from './Rlogo.png';
 import { BsFillMoonFill } from "react-icons/bs";
 
 
-
 import {
   MDBContainer,
   MDBNavbar,
@@ -67,10 +66,13 @@ export default function Navbar() {
             <MDBNavbarItem className='navbaritem '>
               <MDBNavbarLink href='#' className='Navlink'>Activity</MDBNavbarLink>
             </MDBNavbarItem>
+
+
             <div style={{border:'1px solid',background:'flex',Color:'#cfcfcf',height:'22px',paddingBottom:'3rem',paddingLeft:'',width:'1px',marginright:'18px',marginLeft:'26px'}}>
                 
                 </div>
                 
+
             <MDBNavbarItem className='navbaritem navbarItem Works'>
               <MDBNavbarLink href='#' className='Navlink'>How it Works</MDBNavbarLink>
             </MDBNavbarItem>
@@ -93,13 +95,15 @@ export default function Navbar() {
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavbarItem>
-            
-          </MDBNavbarNav>
+           </MDBNavbarNav>
         </MDBCollapse>
+
         <div className='navbaritem'>
+          <div>
             <MDBBtn rounded className='mx-2 navbtn create' color='secondary'>
         Create
       </MDBBtn>
+      </div>
             </div>
             <div className='navbaritem'>
             <MDBBtn rounded className='mx-0 navbtn sign' color='light' style={{margin:'0%'}}>
@@ -111,22 +115,10 @@ export default function Navbar() {
       <BsFillMoonFill className=' mt-2  Moonpic '/>
       </MDBBtn>
             </div>
+     </MDBContainer>
+        </MDBNavbar>
 
-      </MDBContainer>
-      
-    </MDBNavbar>
+  
 
-    
-    
-
-
-
-
-
-
-  );
-
-
-
-
+   );
 }

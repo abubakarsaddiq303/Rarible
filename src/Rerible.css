@@ -26,6 +26,7 @@
  }
  
 .navbaritem{
+    
      margin-left: 2rem;
      font-size: 1.2rem;
      
@@ -53,21 +54,12 @@
     background-image: linear-gradient(to left,blue,rgb(196, 14, 156));
 
  }
- .Navlink{
-     color: rgba(0, 0, 0, 0.562);
-     font-weight: bold;
- }
- .Navlink:hover{
-     color: black;
-
-
-
- }
+ 
  .nav-link{
      color: #ababab !important;
 
  }
- .nav-link-hover{
+ .nav-link:hover{
     color: #000000 !important;
 
 }
@@ -110,7 +102,9 @@
     border-radius: 20px;
   
  }
- 
+ .m-2 {
+    margin: 1.5rem!important;
+}
  .Ssubcol{
      width: 100%;
      height: 280px;
