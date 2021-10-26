@@ -1,140 +1,78 @@
-import React from 'react';
-import { MDBFooter, MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
+import React from 'react'
+import { MDBBtn } from 'mdb-react-ui-kit';
+
 
 export default function Footer() {
-  return (
-    <MDBFooter backgroundColor='light' className='text-center text-lg-left'>
-      <MDBContainer className='p-4'>
-        <MDBRow>
-          <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
-            <h3 className='text-uppercase'>Get the latest Rarible updates</h3>
+    return (
+        <>
+        <div className=' mt-5'>
+            <div >
+            <MDBBtn rounded outline  className='LoadMorebtn'>Load more</MDBBtn>
+            </div>
+            <div className='FooterLast'>
+            <div className='row FLastMaindiv'>
+                 
+                 <div className=' col-4 colFour'>
+                     <h4 style={{color:'black',fontWeight:'bold',marginLeft:'32px'}}>Get the latest Rarible updates</h4>
+                     <div style={{marginTop:'1.4rem'}}>
+                     <div class="wrapper position-relative">
+	
+	<div class="searchbtn"><MDBBtn  className='ImButton' rounded color="black">I’m in</MDBBtn></div>
+    <input type="text" class="input" 
+	placeholder="Your e-mail"/>
+     </div>
 
-            <div class="input-group">
-  <div class="form-outline">
-    <input id="search-input" type="your e-mail" id="form1" class="form-control" />
-    <label class="form-label" for="form1" style={{borderRadius:'2.5rem',}}>Search</label>
-  </div>
-  <button id="search-button" type="button" class="btn btn-primary">
-    <i class="fas fa-search"></i>
-  </button>
-</div>
-          </MDBCol>
+                     </div>
 
-          <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
-            <h4 className='text-uppercase mb-0'>Rarible</h4>
+                 </div>
+                 <div className=" col-2 colTwo">
+                     <div style={{marginLeft:"33px"}}>
+                     <h5 style={{fontWeight:'bold',color:'black',marginLeft:'26px'}}>Rarible</h5>
+                     <ul style={{marginTop:'1.4rem'}}>
+                         <li>Explore</li>
+                         <li>Help Center</li>
+                         <li>Blog</li>
+                         <li>Jobs <span style={{backgroundColor:'red',padding:"6px",borderRadius:"22px",color:'white'}}>21</span></li>
+                         <li>Become a partner</li>
+                         <li>Bug bounty</li>
+                     </ul>
+                     </div>
 
-            <ul className='list-unstyled'>
-              <li>
-                <a href='#!' className='text-dark'>
-                Explore
-                </a>
-              </li>
-              <li>
-                <a href='#!' className='text-dark'>
-                Help center
-                </a>
-              </li>
-              <li>
-                <a href='#!' className='text-dark'>
-                Blog
-                </a>
-              </li>
-              <li>
-                <a href='#!' className='text-dark'>
-                Jobs
-                </a>
-              </li>
-              <li>
-                <a href='#!' className='text-dark'>
-                Become a partner
-                </a>
-              </li>
-              <li>
-                <a href='#!' className='text-dark'>
-                Bug bounty
-                </a>
-              </li>
-            </ul>
-          </MDBCol>
+                 </div>
+                 <div className=" col-2 colThree">
+                    <div style={{marginLeft:"33px"}}>
+                        
+                 <h5 style={{fontWeight:'bold',color:'black',marginLeft:'22px'}}>Community</h5>
+                     <ul style={{marginTop:'1.4rem'}}>
+                         <li>RARI Token</li>
+                         <li>Discussion</li>
+                         <li>Voting</li>
+                         <li>Sugest Fearture <span>21</span></li>
+                         <li>Rerible Protocole</li>
+                         <li>Subscribe</li>
+                     </ul>
 
-          <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
-            <h4 className='text-uppercase'>Community</h4>
+                    </div>
+                 </div>
+                 <div className=" col-4 colFour">
+                     <div style={{marginLeft:'200px',width:'100%'}}>
+                     <h5 style={{fontWeight:'bold',color:'black',marginLeft:'5px'}}>Language</h5>
+                      <div style={{marginTop:'1.4rem'}}>
+                      <select className="form-select" aria-label="Default select example" >
+  <option selected >English</option>
+  <option value="1">한국어</option>
+  <option value="2">中文</option>
+  <option value="3">日本語</option>
+</select>
+                      </div>
+                     </div>
+                 </div>
+             
 
-            <ul className='list-unstyled mb-0'>
-              <li>
-                <a href='#!' className='text-dark'>
-                  RARI Token
-                </a>
-              </li>
-              <li>
-                <a href='#!' className='text-dark'>
-                  Discussion
-                </a>
-              </li>
-              <li>
-                <a href='#!' className='text-dark'>
-                  Voting
-                </a>
-              </li>
-              <li>
-                <a href='#!' className='text-dark'>
-                  Suggest feature
-                </a>
-              </li>
-              <li>
-                <a href='#!' className='text-dark'>
-                  Rarible protocol
-                </a>
-              </li>
-              <li>
-                <a href='#!' className='text-dark'>
-                  Subscribe
-                </a>
-              </li>
-            </ul>
-          </MDBCol>
-
-          <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
-            <h4 className='text-uppercase mb-0'>Language</h4>
-
-            <ul className='list-unstyled'>
-              <li>
-              <select class="select">
-            <option value="1">English</option>     
-            <option value="1">Spanish</option>
-            <option value="2">German</option>
+         </div>
+            </div>
+        </div>
             
-           
-          </select>
-              </li>
-
-            </ul>
-          </MDBCol>
-        </MDBRow>
-      </MDBContainer>
-
-      <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-        &copy; {new Date().getFullYear()} Rarible, Inc. All rights reserved.{' '}
-        
-        
-<i class="fab fa-facebook-f"></i>
-
-
-<i class="fab fa-twitter"></i>
-
-
-<i class="fab fa-google"></i>
-
-
-<i class="fab fa-instagram"></i>
-
-
-<i class="fab fa-linkedin-in"></i>
-
-
-<i class="fab fa-pinterest"></i>
-      </div>
-
-    </MDBFooter>
-  );
+        </>
+    )
 }

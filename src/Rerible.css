@@ -1,70 +1,56 @@
  body{
      margin: 0%;
      padding: 0%;
-     box-sizing: border-box;
+     box-sizing: border-box;font-family: 'Montserrat', sans-serif;
+ }
+ .row{
+     margin: 0%;
+     padding: 0%;
  }
  .Reriblesize{
      font-weight: bold;
-     font-size: 1.4rem;
+     font-size: 1.8rem;
  }
  .TopSpan{
      width: 100%;
      text-align: center;
      padding: .6rem 0%;
-     background-image: linear-gradient(to right,blue,rgb(207, 14, 159));
+     background-image: linear-gradient(to right,blue,#ff00d9);
      
      color: white;
  }
  input{
-    margin-left: 1rem;
+     margin-left: 1rem;
      
      
- }
- 
- .Navbar{
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around !important;
-    flex-wrap: nowrap;
-      margin-left:20px !important;
  }
  
 .navbaritem{
-    list-style-type: none;
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around !important;
-  flex-wrap: nowrap;
-   /* margin-left:10px !important;*/
+     margin-left: 2rem;
+     font-size: 1.2rem;
      
-     font-size: 1.0rem;
-     padding: 5px;
-     
- }
- .form{
-     padding-left: 20% !important;
  }
  .Navcontainer{
-     margin-left: 1.0rem;
+     margin-left: 2rem;
  }
  .Moonpic{
-     font-size: 1.0rem;
+     font-size: 1.1rem;
      transform: rotate(270deg);
  }
  .navbtn{
-     width: 6rem;
+     width: 8rem;
      height: 3rem;
  }
+ .input-group input{
+     width: 444px;
+
+ }
  .navbtn.create{
-     background-image: linear-gradient(to right,rgb(0, 0, 255),rgb(231, 34, 188));
+     background-image: linear-gradient(to right,blue,rgb(196, 14, 156));
      
  }
 .navbtn.create:hover{
-    background-image: linear-gradient(to left,rgb(0, 17, 255),rgb(255, 0, 234));
-   
+    background-image: linear-gradient(to left,blue,rgb(196, 14, 156));
 
  }
  .Navlink{
@@ -73,156 +59,385 @@
  }
  .Navlink:hover{
      color: black;
- }
- .formInput{
-     
-     display: flex;
-     align-items: center !important;
-     
- }
- .navbarItem{
-     display: flex;
-    align-items: center !important;
-    font-size: 15px;
-     color:rgb(159, 167, 175);
-    
+
+
 
  }
- .mProfile{
-     width: 100px !important;
+ .nav-link{
+     color: #ababab !important;
+
  }
- .Works{
-    width: 120px !important;
+ .nav-link-hover{
+    color: #000000 !important;
+
 }
- 
- .row{
-     width: 100%;
-    display: flex;
-    align-items: baseline;
-    align-items: center !important;
-    padding-right: 100px;
- }
  .FirstCol{
-     
+     margin: 0%;
+     padding: 0%;
      height: 600px;
-     font-weight: bold;
-     border-radius: 5%;
-     border: black solid 0px;
-     margin-right: auto!important;
-    margin-left: auto!important;
-}
- 
+     width: 100%;
+     
+     
+
+    }
+    .formInput{
+     
+        display: flex;
+        align-items: center !important;
+        
+    }
+    .navbarItem{
+        display: flex;
+       align-items: center !important;
+       font-size: 15px;
+        color:rgb(159, 167, 175);
+       
+   
+    }
+    .mProfile{
+        width: 100px !important;
+    }
+    .Works{
+       width: 120px !important;
+   }
+ .FirstSubcol{
+     width: 90%;
+    height: 95%;
+    margin: 10px 100px 100px 30px;
+    background-image: url('/src/Pictures/images (1).jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+  
+ }
  
  .Ssubcol{
+     width: 100%;
+     height: 280px;
+     font-size: 16px;
+ }
+ .Ssubcol.first{
     
-     margin: 100% !important;
-     padding-bottom: 0%;
+    background-image: url('/src/Pictures/images (1).jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    
+ }
+ .Ssubcol.second{
+   
+    background-image: url('/src/Pictures/images (1).jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+ }
+ .Ssubcol.third{
+  
+    background-image: url('/src/Pictures/images (1).jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+ }
+ .Ssubcol.fourth{
+    
+    background-image: url('/src/Pictures/images (1).jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+ }
+ .Ssubcol.fifth{
+  
+    background-image: url('/src/Pictures/images (1).jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+ }
+ .Ssubcol.sixth{
+    
+    background-image: url('/src/Pictures/images (1).jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+ }
+ .row{
+     margin-left: 0%;
+     margin-right: 0%;
      padding-left: 0%;
-     border-radius: 10%;
-     
-     margin-right: auto!important;
-    margin-left: auto!important;
+     padding-right: 0%;
  }
- .mywidth
- {
-     width: 100% !important;
-     height: 100% !important;
-     
+ select{
+    border:none;
+    outline:none;
  }
- .Swidth
- {
-     width: 100% !important;
-     height: 65% !important;
-     
- }
- .col-md-3 col-sm-5  Ssubcol  m-2 {
-    margin-right: auto!important;
-    margin-left: auto!important;
-    
-   width: 50px;
-   height: 100%;
-   border-radius: 5%;
-}
- .rowHot{
+ .ContentTop{
+     width: 30%;
+     font-weight: bold;
 
-    display: flex;
-    align-items: center !important;
-    width: 20%;
-    min-width: 95%;
-    padding-left: 20px;
-    
-}
- 
- 
+ }
  .select{
-     margin-left: 5px; 
-     font-size: 40px;
+    position: absolute;
+    right: 0%;
+   
+    font-size: 2.2rem;
  }
- .card{
-    box-sizing: border-box;
-     width: 200px;
-     justify-content: space-around !important;
+ .myCard{
+  
+    margin: 0% 1.4rem;
  }
- 
  
  .Cimg{
-     box-sizing: border-box;
-     margin: 100px;
+     margin: 40px;
     width: 100px;
     height: 100px;
-    border-radius:0%;
- }
- .Bimg{
-    grid-gap:5%;
+    border-radius: 50%;
  }
  .cardbody{
-     width: 20% !important;
-     margin-top: 15px;
-     margin-left: 15px;
- }
- 
- 
- 
- 
- .fa-ellipsis-h{
-     padding-left: 90%;
-     width: 8% !important;
      
+     margin-top: 50px;
+     margin-left: 35px;
  }
- 
+ .para{
+     margin-top: 50px;
+     margin-left: 20px;
+     margin-right: 5px;
+     font-size: 1.5rem;
+     font-weight: bold;
+ }
+.form-control{
+    width: 20rem;
+ }
+ .searchinput{
+     width: 20rem;
+     border-radius: 2.4rem;
+     height: 3rem;
+ }
+ .Mdbcard{
+     padding: 20px;
+     border: rgba(0, 0, 0, 0.247) solid 1px;
+ }
+.Cardimages{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.Cardimages.two{
+    margin-left: 26px;
+}
+.Cardimages.three{
+    margin-left: 52px;
+}
+.option{
+    position: absolute;
+    right: 5%;
+}
 
- 
- 
- 
+.Toggle{
+    background-color: transparent;
+    color: black;
+    font-size: 1.5rem;
+    box-shadow: none;
+
+}
+.Toggle:after {
+ display: none;
+}
+.Toggle:hover{
+    color: black;
+    background-color: transparent;
+    box-shadow: none;
+}
+.Toggle:focus{
+    color: black;
+    background-color: transparent;
+    box-shadow: none;
+}
+.DropdownMenu{
+    width: 13rem;
+    height: 10rem;
+    line-height: 1.7rem;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-left: -160px;
     
-      @media   (min-width: 1200px) {
-        
-        .navBar{
-            width: auto !important;
-        }
-      }
+}
 
-      @media(max-width: 990px) {
-      
-        .mProfile{
-            width: auto !important;
-        }
-        .Works{
-            width: auto !important;
-        }
 
-      }
-      
-    @media screen and (min-width: 480px) {
-          
-          }
 
-   
-    @media(max-width: 600px) {
-      
-
-    }
+  .Mdbbody{
+      margin-top: 15px;
+      margin-left: -15px;
+  }
+  .Mdbtext{
+      font-weight: bold;
+      font-size: 1rem;
+      margin-top: 20px;
+  }
+  .Mdbtext.second{
+      color: rgb(20, 136, 231);
+      font-size: 1.2rem;
+  }
+  .Mdbtext_three{
+      position: absolute;
+      right: 0%;
+      font-size: 1.3rem;
      
-    @media(max-width: 415px) {
+  }
+  .HotCollCards{
+      margin-left: 20px;
+  }
+  .Hotbiddiv{
+      margin: 0% .2rem;
+  }
+  .HCollectionImage{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    border:  white solid 5px;
+}
+  .HCollcol{
+        top: 60px;
+        left: 90px;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.349);
+  }
+  .ExpButton{
+      color: black;
+      border: solid 1px rgba(0, 0, 0, 0.171);
+      width: 12rem;
+      height: 3rem;
+      text-transform: none;
+      font-size: 1rem;
+      font-weight: bold;
+      margin-bottom: 3px;
+  }
+  .ExplorDiv{
+      width: 200px;
+  }
+  .ExplorDiv.last{
+      position: absolute;
+    
+      right: -280px;
+  }
+  .ExploreCard2{
+      width: 20%;
+  }
+  .LoadMorebtn{
+      width: 90%;
+      height: 65px;
+      margin-left: 80px;
+      font-size: 1.3rem;
+      font-weight: bold;
+      text-transform: none;
+      border-width: 4px;
+      border-style: solid;
+      
+      
+        border-radius: 100rem;
+        padding: 1rem;
+        font-family: 'Avenir Next';
        
+        padding: .5rem 3rem;
+        color: color-black;
+        box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+        border: solid 5px transparent;
+        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #03a8d1, #f10bea);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        box-shadow: 2px 1000px 1px #fff inset;
+  }
+  .LoadMorebtn:hover{
+      color: black;
+
+  }
+  .FooterLast{
+      position: relative;
+      width: 100%;
+      height: 550px;
+      background-color: rgba(177, 174, 174, 0.219);
+      margin-top: 4rem;
+  }
+  .FLastMaindiv{
+      position: absolute;
+      bottom: 0%;
+    width: 100%;
+    height: 80%;
+    
+      
+}
+
+  
+  .wrapper{
+
+      width: 90%;
+      padding: 20px;
+}
+.wrapper input{
+    width: 90%;
+    height: 70px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.24);
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+   
+}
+.wrapper input:active{
+    border: 3px solid black;
+}
+
+.wrapper input[type="text"]::placeholder {  
+                  
+   
+    padding-left: 22px; 
+} 
+.searchbtn{
+    position: absolute;
+    right: 55px;
+    top: 30px;
+}
+.ImButton{
+    width: 100px;
+    height: 53px;
+    text-transform: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.form-select{
+    width: 60%;
+    height: 50px;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.form-select option{
+    font-weight: bold;
+    color: black;
+    margin: 15px 0;
+
+}
+ul{
+    list-style: none;
+}
+ul li{
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 2.9rem;
+}
+@media (max-width:1491px){
+    .navbtn{
+        width: 5rem;
+        height: 2rem;
     }
+    .navbaritem{
+        margin-left: .8rem;
+        font-size: 1rem;
+        
+    }
+    input{
+       
+            width: 4rem;
+
+    }
+}

@@ -32,8 +32,8 @@ export default function Navbar() {
     
     <MDBNavbar expand='lg' className='mb-3 pt-2 navBar' >
       <MDBContainer fluid className='Navcontainer '>
-        <MDBNavbarBrand href='#'><img src={Rlogo} alt=" NOthing" style={{height:'3.3rem'}} /></MDBNavbarBrand>
-        <div className='navbar-text'><span><strong className='Reriblesize'>Rarible</strong></span></div>
+        <MDBNavbarBrand href='#'><img src={Rlogo} alt=" NOthing" style={{height:'3.0rem'}} /></MDBNavbarBrand>
+        <div className='navbar-text'><span><strong className='Reriblesize'  style={{paddingRight:'1rem'}}>Rarible</strong></span></div>
        
         <MDBNavbarToggler
           aria-controls='navbarSupportedContent'
@@ -49,11 +49,11 @@ export default function Navbar() {
             
           <form className='d-flex input-group w-auto formInput'>
             
-            <input   type='search' className='form-control' placeholder='Collection,item or user' aria-label='Search' style={{borderRadius:'2.5rem',width:'25rem',height:'3rem',}} />
+            <input   type='search' className='form-control' placeholder=' Collection, item or user ' aria-label='Search' style={{borderRadius:'2.5rem',width:'25rem',height:'3rem',backgroundColor:'#04040512',}} />
                    
                  </form>
                  
-            <MDBNavbarItem className='navbaritem navbarItem w-auto'  >
+            <MDBNavbarItem className='navbaritem navbarItem w-auto' style={{color:'gray'}} >
               <MDBNavbarLink active color='dark' aria-current='page' href='#' className='Navlink'>
                 Explore
               </MDBNavbarLink>
@@ -67,6 +67,10 @@ export default function Navbar() {
             <MDBNavbarItem className='navbaritem '>
               <MDBNavbarLink href='#' className='Navlink'>Activity</MDBNavbarLink>
             </MDBNavbarItem>
+            <div style={{border:'1px solid',background:'flex',Color:'#cfcfcf',height:'22px',paddingBottom:'3rem',paddingLeft:'',width:'1px',marginright:'18px',marginLeft:'26px'}}>
+                
+                </div>
+                
             <MDBNavbarItem className='navbaritem navbarItem Works'>
               <MDBNavbarLink href='#' className='Navlink'>How it Works</MDBNavbarLink>
             </MDBNavbarItem>
