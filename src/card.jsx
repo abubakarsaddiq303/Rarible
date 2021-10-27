@@ -4,17 +4,18 @@ import { MDBCard, MDBCardTitle, MDBCardText, MDBCardBody, MDBCardImage, MDBRow, 
 export default function card({number}) {
     return (
         <>
+      
           <div className='d-flex'>
         
         <div className='para'><p>{number}</p></div>
-   <div> <MDBCard style={{ maxWidth: '390px' }}>
+   <div> <MDBCard style={{ Width: '390px' }}>
       <MDBRow className='g-0'>
      
         <MDBCol md='4'>
           
           <MDBCardImage src='https://mdbcdn.b-cdn.net/wp-content/uploads/2020/06/vertical.jpg' alt='...' fluid  className='Cimg'/>
         </MDBCol>
-        <MDBCol md='8'>
+        <MDBCol md='4'>
           <MDBCardBody className='cardbody' style={{width:'270px'}}>
             <MDBCardTitle className='font-weight-bold color-black '>Art Blocks</MDBCardTitle>
             <MDBCardText>

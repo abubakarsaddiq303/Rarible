@@ -41,7 +41,7 @@ export default function Explore() {
     return (
         <>
         <div>
-        <div className='container d-flex mt-5 position-relative  p-0' style={{marginLeft:"30px"}}>
+        <div className='container d-flex mt-5 position-relative  p-0' style={{marginLeft:'60px'}}>
                 
                 <div><h1>Explore</h1>
                 </div>
@@ -57,7 +57,7 @@ export default function Explore() {
                 <div className='ExplorDiv'>
                     <ExploreCard Ricon={<CgDollar/>} Title={'Price range'}/>
                 </div>
-                <div className='ExplorDiv last' >
+                <div className='ExplorDiv last' style={{paddingRight:'30px'}} >
                     <ExploreCard  Ricon={<BiAlignJustify/>} Title={'Recently added'}/>
                 </div>
                

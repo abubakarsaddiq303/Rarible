@@ -53,22 +53,22 @@ export default function Navbar() {
                  </form>
                  
             <MDBNavbarItem className='navbaritem navbarItem w-auto' style={{color:'gray'}} >
-              <MDBNavbarLink active color='dark' aria-current='page' href='#' className='Navlink'>
+              <MDBNavbarLink active color='black' aria-current='page' href='#' className='Navlink Explore'>
                 Explore
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem className='navbaritem navbarItem mProfile'>
               <MDBNavbarLink href='#' className='Navlink '>My Profile</MDBNavbarLink>
             </MDBNavbarItem>
-            <MDBNavbarItem className='navbaritem '>
+            <MDBNavbarItem className='navbaritem Following'>
               <MDBNavbarLink href='#' className='Navlink'>Following</MDBNavbarLink>
             </MDBNavbarItem>
-            <MDBNavbarItem className='navbaritem '>
+            <MDBNavbarItem className='navbaritem Activity'>
               <MDBNavbarLink href='#' className='Navlink'>Activity</MDBNavbarLink>
             </MDBNavbarItem>
+             
 
-
-            <div style={{border:'1px solid',background:'flex',Color:'#cfcfcf',height:'22px',paddingBottom:'3rem',paddingLeft:'',width:'1px',marginright:'18px',marginLeft:'26px'}}>
+          <div style={{border:'1px solid',background:'flex',height:'5px',paddingBottom:'2rem',paddingLeft:'',width:'1px',marginright:'18px',marginLeft:'26px',marginTop:'1rem'}}>
                 
                 </div>
                 
@@ -79,7 +79,7 @@ export default function Navbar() {
         
             <MDBNavbarItem className='navbaritem navbarItem w-auto'>
               <MDBDropdown>
-                <MDBDropdownToggle tag='a' className='nav-link Navlink' >
+                <MDBDropdownToggle tag='a' className='nav-link Navlink'style={{marginright:'20px'}} >
                   Community
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>

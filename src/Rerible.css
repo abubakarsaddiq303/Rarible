@@ -5,7 +5,8 @@
  }
  .row{
      margin: 0%;
-     padding: 0%;
+     padding-left: 1rem !important;
+     width: 1200px !important;
  }
  .Reriblesize{
      font-weight: bold;
@@ -86,12 +87,30 @@
        
    
     }
+.Explore{
+    font-size: medium;
+    padding-right: 10px !important;
+}
+.Following{
+    width: 90px !important;
+    margin: auto;
+    font-size:medium;
+}
+.Activity{
+    
+    
+    font-size:medium;
+}
     .mProfile{
+
         width: 100px !important;
     }
     .Works{
        width: 120px !important;
    }
+
+
+
  .FirstSubcol{
      width: 90%;
     height: 95%;
@@ -188,7 +207,7 @@
  .cardbody{
      
      margin-top: 50px;
-     margin-left: 35px;
+     margin-left: -251px;
  }
  .para{
      margin-top: 50px;
@@ -301,16 +320,17 @@
       height: 3rem;
       text-transform: none;
       font-size: 1rem;
-      font-weight: bold;
+      
       margin-bottom: 3px;
   }
   .ExplorDiv{
-      width: 200px;
+      box-sizing: border-box;
+      width: 250px;
   }
   .ExplorDiv.last{
       position: absolute;
     
-      right: -280px;
+      right: -80px;
   }
   .ExploreCard2{
       width: 20%;
@@ -331,7 +351,7 @@
         font-family: 'Avenir Next';
        
         padding: .5rem 3rem;
-        color: color-black;
+        color: color-white;
         box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
         border: solid 5px transparent;
         background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #03a8d1, #f10bea);
@@ -419,6 +439,7 @@ ul li{
     font-weight: bold;
     line-height: 2.9rem;
 }
+/*
 @media (max-width:1491px){
     .navbtn{
         width: 5rem;
@@ -435,3 +456,4 @@ ul li{
 
     }
 }
+*/
