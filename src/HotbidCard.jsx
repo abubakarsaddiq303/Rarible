@@ -6,7 +6,7 @@ import { FaHeartbeat } from "react-icons/fa";
 
 export default function App({url,Title,text,text2,Heart,image1,image2,image3}) {
   return (
-    <MDBCard className='Mdbcard' style={{ maxWidth: '19rem'  }}>
+    <MDBCard className='Mdbcard' >
       <div className=' mb-5'>
         <div  className='images d-flex position-relative mb-5'>
         <MDBCol lg='2'  className='mb-4 position-absolute'>

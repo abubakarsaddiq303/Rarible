@@ -6,7 +6,7 @@
  .row{
      margin: 0%;
      padding-left: 1rem !important;
-     width: 1200px !important;
+     width: 100% !important;
  }
  .Reriblesize{
      font-weight: bold;
@@ -28,8 +28,8 @@
  
 .navbaritem{
     
-     margin-left: 2rem;
-     font-size: 1.2rem;
+     margin-left: 0rem;
+     font-size: 1.0rem;
      
  }
  .Navcontainer{
@@ -57,9 +57,13 @@
  }
  
  .nav-link{
+     display: flex;
+     padding-right: 15% !important;
      color: #ababab !important;
 
  }
+ 
+ 
  .nav-link:hover{
     color: #000000 !important;
 
@@ -81,7 +85,8 @@
     }
     .navbarItem{
         display: flex;
-       align-items: center !important;
+       align-items: left !important;
+       
        font-size: 15px;
         color:rgb(159, 167, 175);
        
@@ -274,7 +279,12 @@
     
 }
 
-
+.card{
+    padding-right: 5rem
+;
+    width: 15rem
+;
+}
 
   .Mdbbody{
       margin-top: 15px;
@@ -316,27 +326,30 @@
   .ExpButton{
       color: black;
       border: solid 1px rgba(0, 0, 0, 0.171);
-      width: 12rem;
+      width: 6rem;
       height: 3rem;
       text-transform: none;
       font-size: 1rem;
       
       margin-bottom: 3px;
   }
+  
+  
   .ExplorDiv{
+      padding: 0%;
       box-sizing: border-box;
       width: 250px;
   }
   .ExplorDiv.last{
-      position: absolute;
+      position: relative;
     
-      right: -80px;
+      
   }
   .ExploreCard2{
       width: 20%;
   }
   .LoadMorebtn{
-      width: 90%;
+      width: 80%;
       height: 65px;
       margin-left: 80px;
       font-size: 1.3rem;
@@ -351,22 +364,23 @@
         font-family: 'Avenir Next';
        
         padding: .5rem 3rem;
-        color: color-white;
+        color: #000000 !important;
         box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
         border: solid 5px transparent;
-        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #03a8d1, #f10bea);
+        
         background-origin: border-box;
         background-clip: content-box, border-box;
         box-shadow: 2px 1000px 1px #fff inset;
   }
   .LoadMorebtn:hover{
-      color: black;
+      color: rgb(255, 0, 0);
+      background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #03a8d1, #f10bea);
 
   }
   .FooterLast{
       position: relative;
-      width: 100%;
-      height: 550px;
+      width: 90%;
+      height: 620px;
       background-color: rgba(177, 174, 174, 0.219);
       margin-top: 4rem;
   }
@@ -439,8 +453,11 @@ ul li{
     font-weight: bold;
     line-height: 2.9rem;
 }
-/*
-@media (max-width:1491px){
+.row.g-0{
+    margin-right: -57rem !important;
+}
+
+/* @media (max-width:1491px){
     .navbtn{
         width: 5rem;
         height: 2rem;
@@ -455,5 +472,4 @@ ul li{
             width: 4rem;
 
     }
-}
-*/
+} */

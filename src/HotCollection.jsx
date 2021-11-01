@@ -17,7 +17,7 @@ export default function HotCollection() {
             {Title:'The Drops',text:'$62,34',image1:fifth,image2:third},
             {Title:'Aavegotchi',text:'$243,65',image1:sixth,image2:first},
             {Title:'BULL RUNNERS',text:'$98,76',image1:eighth,image2:fourth},
-            {Title:'HOPPERS',text:'$312,54',image1:seventh,image2:sixth},
+            // {Title:'HOPPERS',text:'$312,54',image1:seventh,image2:sixth},
         ]
         
          }
@@ -28,7 +28,8 @@ export default function HotCollection() {
             <div className='HotCollCards mt-5 d-flex '> 
             {arr.Item.map((item,index)=>{
                 return( <div className='col-lg-3 col-sm-3 '>
-                <HCollectionCard title={item.Title} text={item.text} image1={item.image1} image2={item.image2} />
+                <HCollectionCard title={item.Title} text={item.text} image1={item.image1} 
+                 />
                 </div>)
             })}
               

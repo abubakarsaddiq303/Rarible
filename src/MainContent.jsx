@@ -3,7 +3,7 @@ import React from 'react';
 import Card from './card';
 
 export default function MainContent() {
-  const arr=[1,2,3,4];
+  const arr=[1 ];
 
     return (
         <>
@@ -16,19 +16,20 @@ export default function MainContent() {
   <option value="3">one week</option>
 </select></div>
         </div>
-        <div className='row'>
-         
+        
+         <div className='Top'>
           {arr.map((item,index)=>{
             return( 
-              <div className="col-lg-2 col-md-4 col-sm-5 p-lg-1 p-3 myCard">
+              <div className="col-lg-2 col-md-4 col-sm-5 p-lg-1 p-3 myCard" style={{boxSizing:'border-box'}}>
               <Card number={item} key={index}/>
               
             </div>
             )
           })}
-        </div>
+        
       
             
+        </div>
         </>
     )
 }

@@ -43,16 +43,16 @@ export default function Navbar() {
           <MDBIcon icon='bars' fas />
         </MDBNavbarToggler>
 
-        <MDBCollapse navbar show={showBasic}>
+        <MDBCollapse navbar  show={showBasic}>
           <MDBNavbarNav className='mr-auto mb-2 mb-lg-0 navabrnav'>
             
           <form className='d-flex input-group w-auto formInput'>
             
-            <input   type='search' className='form-control' placeholder=' Collection, item or user ' aria-label='Search' style={{borderRadius:'2.5rem',width:'25rem',height:'3rem',backgroundColor:'#04040512',}} />
+            <input   type='search' className='form-control' placeholder=' Collection, item or user ' aria-label='Search' style={{borderRadius:'2.5rem',width:'15rem',height:'3rem',backgroundColor:'#04040512',}} />
                    
                  </form>
                  
-            <MDBNavbarItem className='navbaritem navbarItem w-auto' style={{color:'gray'}} >
+            <MDBNavbarItem className='navbaritem navbarItem w-auto' style={{color:'',paddingRight:''}} >
               <MDBNavbarLink active color='black' aria-current='page' href='#' className='Navlink Explore'>
                 Explore
               </MDBNavbarLink>
@@ -79,7 +79,7 @@ export default function Navbar() {
         
             <MDBNavbarItem className='navbaritem navbarItem w-auto'>
               <MDBDropdown>
-                <MDBDropdownToggle tag='a' className='nav-link Navlink'style={{marginright:'20px'}} >
+                <MDBDropdownToggle tag='a' className='nav-link Navlink'style={{marginright:'10rem,'}} >
                   Community
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
@@ -95,18 +95,16 @@ export default function Navbar() {
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavbarItem>
-           </MDBNavbarNav>
-        </MDBCollapse>
 
-        <div className='navbaritem'>
+            <div className='navbaritem'>
           <div>
-            <MDBBtn rounded className='mx-2 navbtn create' color='secondary'>
+            <MDBBtn rounded className='mx-2 navbtn create' color='secondary'style={{width:'6rem'}}>
         Create
       </MDBBtn>
       </div>
             </div>
             <div className='navbaritem'>
-            <MDBBtn rounded className='mx-0 navbtn sign' color='light' style={{margin:'0%'}}>
+            <MDBBtn rounded className='mx-0 navbtn sign' color='light' style={{width:'6rem'}}>
        Sign in
       </MDBBtn>
             </div>
@@ -115,6 +113,12 @@ export default function Navbar() {
       <BsFillMoonFill className=' mt-2  Moonpic '/>
       </MDBBtn>
             </div>
+
+
+           </MDBNavbarNav>
+        </MDBCollapse>
+
+       
      </MDBContainer>
         </MDBNavbar>
 
