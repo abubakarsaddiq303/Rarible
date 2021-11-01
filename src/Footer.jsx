@@ -58,7 +58,7 @@ export default function Footer() {
                      <div style={{marginLeft:'200px',width:'10%'}}>
                      <h5 style={{fontWeight:'bold',color:'black'}}>Language</h5>
                       <div style={{marginTop:'1.4rem'}}>
-                      <select className="form-select" aria-label="Default select example" >
+                      <select className="form-select" aria-label="Default select example" style={{paddingLeft:'16rem'}} >
   <option selected >English</option>
   <option value="1">한국어</option>
   <option value="2">中文</option>
@@ -67,7 +67,10 @@ export default function Footer() {
                       </div>
                      </div>
                  </div>
-             
+             <din>
+
+                 
+             </din>
 
          </div>
             </div>

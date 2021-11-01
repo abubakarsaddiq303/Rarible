@@ -48,11 +48,11 @@ export default function Navbar() {
             
           <form className='d-flex input-group w-auto formInput'>
             
-            <input   type='search' className='form-control' placeholder=' Collection, item or user ' aria-label='Search' style={{borderRadius:'2.5rem',width:'15rem',height:'3rem',backgroundColor:'#04040512',}} />
+            <input   type='search' className='form-control' placeholder=' Collection, item or user ' aria-label='Search' style={{borderRadius:'2.5rem',width:'35rem',height:'1.8rem',backgroundColor:'#04040512',backgroundcolorhover:'white'}} />
                    
                  </form>
                  
-            <MDBNavbarItem className='navbaritem navbarItem w-auto' style={{color:'',paddingRight:''}} >
+            <MDBNavbarItem className='navbaritem navbarItem w-auto' style={{color:'',paddingLeft:'1rem'}} >
               <MDBNavbarLink active color='black' aria-current='page' href='#' className='Navlink Explore'>
                 Explore
               </MDBNavbarLink>
@@ -68,7 +68,7 @@ export default function Navbar() {
             </MDBNavbarItem>
              
 
-          <div style={{border:'1px solid',background:'flex',height:'5px',paddingBottom:'2rem',paddingLeft:'',width:'1px',marginright:'18px',marginLeft:'26px',marginTop:'1rem'}}>
+          <div style={{border:'1px solid',background:'flex',height:'5px',paddingBottom:'2rem',paddingLeft:'',width:'1px',marginright:'18px',marginLeft:'26px',marginTop:'1rem',}}>
                 
                 </div>
                 
@@ -96,19 +96,19 @@ export default function Navbar() {
               </MDBDropdown>
             </MDBNavbarItem>
 
-            <div className='navbaritem'>
+            <div className='navbaritem' style={{paddingLeft:'1rem'}}>
           <div>
-            <MDBBtn rounded className='mx-2 navbtn create' color='secondary'style={{width:'6rem'}}>
+            <MDBBtn rounded className='mx-2  navbtn create' color='secondary'>
         Create
       </MDBBtn>
       </div>
             </div>
-            <div className='navbaritem'>
-            <MDBBtn rounded className='mx-0 navbtn sign' color='light' style={{width:'6rem'}}>
+            <div className='navbaritem' style={{width:'6rem',paddingLeft:'1rem'}}>
+            <MDBBtn rounded className='mx-0 navbtn sign' color='light' >
        Sign in
       </MDBBtn>
             </div>
-            <div className='navbaritem mt-2 '>
+            <div className='navbaritem mt-2 ' style={{paddingLeft:'2rem'}}>
       <MDBBtn  tag='a'  color='black'   outline floating >
       <BsFillMoonFill className=' mt-2  Moonpic '/>
       </MDBBtn>

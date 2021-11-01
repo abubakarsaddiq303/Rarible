@@ -66,7 +66,7 @@ export default function Explore() {
       
             </div>
             <div>
-            <div className=' row mt-3 d-flex' style={{marginLeft:'15px'}} > 
+            <div className=' row mt-3 d-flex' > 
             {arr.Item.map((itm,ind)=>{
                 return( <div className='col-lg-3 col-sm-4 ExploreCard2 ' >
                 <HotbidCard

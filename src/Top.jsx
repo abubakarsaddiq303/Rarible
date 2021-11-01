@@ -31,13 +31,15 @@ return(
                   
                 </MDBDropdownMenu>
               </MDBDropdown>
-              <h2>in</h2>
+              <div> <h2>in</h2></div>
+              
             
-          
-          <MDBDropdown>
+        
+          <MDBDropdown >
                 <MDBDropdownToggle tag='a' className='nav-link Navlink' >
                   1Days
                 </MDBDropdownToggle>
+               
                 <MDBDropdownMenu>
                   <MDBDropdownItem>
                     <MDBDropdownLink>Day 1</MDBDropdownLink>
@@ -49,10 +51,11 @@ return(
                     <MDBDropdownLink>One week</MDBDropdownLink>
                   </MDBDropdownItem>
                 </MDBDropdownMenu>
+                
               </MDBDropdown>
+            
         </div>
     
-
         <div className='row'>
          
          {arr.map((item,index)=>{

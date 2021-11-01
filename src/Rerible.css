@@ -5,7 +5,7 @@
  }
  .row{
      margin: 0%;
-     padding-left: 1rem !important;
+     padding-left: 0rem !important;
      width: 100% !important;
  }
  .Reriblesize{
@@ -23,8 +23,11 @@
  input{
      margin-left: 1rem;
      
+  
      
  }
+ 
+ 
  
 .navbaritem{
     
@@ -40,7 +43,8 @@
      transform: rotate(270deg);
  }
  .navbtn{
-     width: 8rem;
+     
+     width: 6rem;
      height: 3rem;
  }
  .input-group input{
@@ -48,14 +52,20 @@
 
  }
  .navbtn.create{
-     background-image: linear-gradient(to right,blue,rgb(196, 14, 156));
+    box-shadow: none !important;
+     background-image: linear-gradient(to right,rgb(247, 0, 255),rgb(87, 57, 255));
      
  }
 .navbtn.create:hover{
-    background-image: linear-gradient(to left,blue,rgb(196, 14, 156));
+    background-image: linear-gradient(to left,blue,rgb(55, 0, 255));
 
  }
- 
+ .sign{
+     border-width: medium;
+     border-color: #2e2c2c !important;
+    
+ }
+
  .nav-link{
      display: flex;
      padding-right: 15% !important;
@@ -83,6 +93,7 @@
         align-items: center !important;
         
     }
+    
     .navbarItem{
         display: flex;
        align-items: left !important;
@@ -98,7 +109,7 @@
 }
 .Following{
     width: 90px !important;
-    margin: auto;
+
     font-size:medium;
 }
 .Activity{
@@ -177,12 +188,9 @@
     background-size: cover;
     border-radius: 20px;
  }
- .row{
-     margin-left: 0%;
-     margin-right: 0%;
-     padding-left: 0%;
-     padding-right: 0%;
- }
+
+ 
+ 
  select{
     border:none;
     outline:none;
@@ -205,20 +213,21 @@
  
  .Cimg{
      margin: 40px;
-    width: 100px;
-    height: 100px;
+    width: 60px !important;
+    height: 60px !important;
+    
     border-radius: 50%;
  }
  .cardbody{
      
-     margin-top: 50px;
-     margin-left: -251px;
+     margin-top: 30px;
+     margin-left: -290px;
  }
  .para{
      margin-top: 50px;
      margin-left: 20px;
      margin-right: 5px;
-     font-size: 1.5rem;
+     font-size: 1.2rem;
      font-weight: bold;
  }
 .form-control{
@@ -280,6 +289,8 @@
 }
 
 .card{
+    border: none !important;
+    box-shadow: none !important;
     padding-right: 5rem
 ;
     width: 15rem
@@ -379,7 +390,7 @@
   }
   .FooterLast{
       position: relative;
-      width: 90%;
+      
       height: 620px;
       background-color: rgba(177, 174, 174, 0.219);
       margin-top: 4rem;
@@ -420,7 +431,7 @@
 } 
 .searchbtn{
     position: absolute;
-    right: 55px;
+    right: 70px;
     top: 30px;
 }
 .ImButton{

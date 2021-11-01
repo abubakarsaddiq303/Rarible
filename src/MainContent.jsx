@@ -1,9 +1,8 @@
-
 import React from 'react';
 import Card from './card';
 
 export default function MainContent() {
-  const arr=[1 ];
+  const arr=[0,1,2,3,4,5,6,7,8,9];
 
     return (
         <>
@@ -16,20 +15,19 @@ export default function MainContent() {
   <option value="3">one week</option>
 </select></div>
         </div>
-        
-         <div className='Top'>
+        <div className='row'>
+         
           {arr.map((item,index)=>{
             return( 
-              <div className="col-lg-2 col-md-4 col-sm-5 p-lg-1 p-3 myCard" style={{boxSizing:'border-box'}}>
+              <div className="col-lg-2 col-md-4 col-sm-5 p-lg-1 p-3 myCard">
               <Card number={item} key={index}/>
               
             </div>
             )
           })}
-        
+        </div>
       
             
-        </div>
         </>
     )
 }
