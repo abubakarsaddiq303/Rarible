@@ -24,13 +24,17 @@ import { BiAlignJustify } from "react-icons/bi";
 export default function Explore() {
     const arr={
         Item:[
-            {url:first,Title:'Fire Gun',text:'Note for sale',text2:'1.1 wETH',Heart:'55',image1:sixth,image2:seventh,image3:Rlogo},
-            {url:second,Title:'King Logo',text:'From 25 Eth to 1/10',text2:'4.2 wETH',Heart:'64',image1:fifth,image2:third,image3:Rlogo},
-            {url:third,Title:'Girl Attitude',text:'From 11 EtH to 2/4',text2:'3 wETH',Heart:'123',image1:sixth,image2:first,image3:Rlogo},
-            {url:fourth,Title:'Lahor Logo',text:'Note for slae 1/1',text2:'1.53 wETH',Heart:'86',image1:eighth,image2:fourth,image3:Rlogo},
-            {url:fifth,Title:'Lion Walp',text:'Top Tranding 23 Eth',text2:'5.52 wETH',Heart:'99',image1:seventh,image2:sixth,image3:Rlogo},
+            {url:first,Title:'Fire Gun',text:'Note for sale',text2:'1.1 wETH',Heart:'5',image1:sixth,image2:seventh,image3:Rlogo},
+            {url:second,Title:'King Logo',text:'From 25 Eth to 1/10',text2:'4.2 wETH',Heart:'4',image1:fifth,image2:third,image3:Rlogo},
+            {url:third,Title:'Attitude',text:'From 11 EtH to 2/4',text2:'3 wETH',Heart:'3',image1:sixth,image2:first,image3:Rlogo},
+            {url:fourth,Title:'Lahor Logo',text:'Note for slae 1/1',text2:'1.53 wETH',Heart:'6',image1:eighth,image2:fourth,image3:Rlogo},
+            
+           
+          
+            
+           
         ],
-        DropdownLinks:[
+        DropdownLinks:[   
             {link1:'All',link2:'Art',link3:'Photography',link4:'Metaverses',link5:'Music'},
             {link1:'All',link2:'Art',link3:'Photography',link4:'Metaverses',link5:'Music'}
 
@@ -40,35 +44,22 @@ export default function Explore() {
 
     return (
         <>
-        <div>
-        <div className='container d-flex mt-5 position-relative  p-0' style={{marginLeft:'60px'}}>
+        <div style={{paddingTop:'20rem',paddingRight:'8rem'}}>
+        <div className='container d-flex mt-5 position-relative  p-0'style={{paddingRight:'8rem'}}>
                 
-                <div><h1>Explore</h1>
+                <div style={{color:'black'}}><h1 >Explore</h1>
                 </div>
-                <div className='ExplorDiv'>
-                    <ExploreCard Ricon={<TiThList/>} Title={'Category'}/>
-                </div>
-                <div className='ExplorDiv'>
-                    <ExploreCard Ricon={<TiThList/>} Title={'Collecions'}/>
-                </div>
-                <div className='ExplorDiv'>
-                    <ExploreCard Ricon={<RiFlashlightLine/>}Title={'Sale type'}/>
-                </div>
-                <div className='ExplorDiv'>
-                    <ExploreCard Ricon={<CgDollar/>} Title={'Price range'}/>
-                </div>
-                <div className='ExplorDiv last' style={{paddingRight:'30px'}} >
-                    <ExploreCard  Ricon={<BiAlignJustify/>} Title={'Recently added'}/>
+               
                 </div>
                
                 
                     
       
             </div>
-            <div>
-            <div className=' row mt-3 d-flex' > 
+            <div style={{paddingRight:'0rem'}}>
+            <div className=' row mt-5 d-flex' > 
             {arr.Item.map((itm,ind)=>{
-                return( <div className='col-lg-3 col-sm-4 ExploreCard2 ' >
+                return( <div className='col-lg-3 col-sm-4 ExploreCard2'style={{paddingLeft:'2rem',paddingRight:'8rem'}} >
                 <HotbidCard
                 key={ind}
                  url={itm.url}
@@ -86,7 +77,7 @@ export default function Explore() {
 
             </div>
             </div>
-        </div>
+        
         </>
     )
 }

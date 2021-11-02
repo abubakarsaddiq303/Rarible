@@ -8,7 +8,7 @@ export default function card({number}) {
           <div className='d-flex'>
         
         <div className='para'><p>{number}</p></div>
-   <div> <MDBCard style={{ Width: '390px' }}>
+   <div> <MDBCard style={{ Width: '100px' }}>
       <MDBRow className='g-0'>
      
         <MDBCol md='8'>

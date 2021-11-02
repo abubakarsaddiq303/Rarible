@@ -13,7 +13,7 @@ export default function ExploreCard({Ricon,Title}) {
       </MDBBtn>
       </MDBDropdownToggle>
       <MDBDropdownMenu className='DropdownMenu'>
-        <MDBDropdownItem style={{paddingTop:'2rem'}}>
+        <MDBDropdownItem style={{paddingTop:'0rem'}}>
           <MDBDropdownLink  href="#" style={{fontWeight:'bold'}}>All</MDBDropdownLink>
         </MDBDropdownItem>
         <MDBDropdownItem>
