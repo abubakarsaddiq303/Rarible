@@ -7,7 +7,7 @@ export default function Footer() {
         <>
         <div className=' mt-5'>
             <div >
-            <MDBBtn rounded outline  className='LoadMorebtn'><h5>Load more</h5></MDBBtn>
+            <MDBBtn rounded outline  className='LoadMorebtn'>Load more</MDBBtn>
             </div>
             <div className='FooterLast'>
             <div className='row FLastMaindiv'>
@@ -54,11 +54,11 @@ export default function Footer() {
 
                     </div>
                  </div>
-                 <div className=" col-4 colFour" style={{marginLeft:'-130px'}}>
-                     <div style={{marginLeft:'200px',width:'10%'}}>
-                     <h5 style={{fontWeight:'bold',color:'black'}}>Language</h5>
+                 <div className=" col-4 colFour">
+                     <div style={{marginLeft:'67px',width:'100%'}}>
+                     <h5 style={{fontWeight:'bold',color:'black',marginLeft:'5px'}}>Language</h5>
                       <div style={{marginTop:'1.4rem'}}>
-                      <select className="form-select" aria-label="Default select example" style={{paddingLeft:'16rem',borderRadius:'30px'}} >
+                      <select className="form-select" aria-label="Default select example" >
   <option selected >English</option>
   <option value="1">한국어</option>
   <option value="2">中文</option>
@@ -67,55 +67,8 @@ export default function Footer() {
                       </div>
                      </div>
                  </div>
+             
 
-                
-
-
-
-                 <footer class="page-footer font-small  pt-4">
-
-
-<div class="container">
-
-  
-  <ul class="list-unstyled list-inline text-right">
-    <li class="list-inline-item">
-      <a class="btn-floating btn-fb mx-1">
-        <i class="fab fa-facebook-f"> </i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating btn-tw mx-1">
-        <i class="fab fa-twitter"> </i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating btn-gplus mx-1">
-        <i class="fab fa-google-plus-g"> </i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating btn-li mx-1">
-        <i class="fab fa-linkedin-in"> </i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating btn-dribbble mx-1">
-        <i class="fab fa-dribbble"> </i>
-      </a>
-     
- 
-
- 
-    </li>
-    <div class="footer-copyright " style={{marginRight:'60rem'}}>© Rarible, Inc. All rights reserved.</div>
-  </ul>
-  
-
-</div>
-
-</footer>
-            
          </div>
             </div>
         </div>

@@ -1,18 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+// import './index.css';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
-import reportWebVitals from './reportWebVitals';
+// import Shopcart from './component/shopcart';
+// import Bcalculatorl from './comp2/Bcalculatorl';
+// import Redeucer from './comp3/Redeucer';
+
+// import App from './comp4/App';
+
+// import NewQuiz from './comp4/NewQuiz';
+
+import App from './ReraibleApp/App';
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <App/>
+  ,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
