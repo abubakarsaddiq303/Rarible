@@ -55,7 +55,7 @@ export default function Footer() {
                     </div>
                  </div>
                  <div className=" col-4 colFour">
-                     <div style={{marginLeft:'67px',width:'100%'}}>
+                     <div className="language" style={{marginLeft:'30px',width:'417px'}}>
                      <h5 style={{fontWeight:'bold',color:'black',marginLeft:'5px'}}>Language</h5>
                       <div style={{marginTop:'1.4rem'}}>
                       <select className="form-select" aria-label="Default select example" >

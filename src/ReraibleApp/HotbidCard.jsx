@@ -2,11 +2,11 @@ import React from 'react';
 import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardImage, MDBBtn,MDBCol } from 'mdb-react-ui-kit';
 import { MDBDropdown, MDBDropdownMenu, MDBDropdownToggle, MDBDropdownItem, MDBDropdownLink } from 'mdb-react-ui-kit';
 import { BsThreeDots } from "react-icons/bs";
-import { FaHeartbeat } from "react-icons/fa";
+import { FiHeart } from "react-icons/fi";
 
 export default function App({url,Title,text,text2,Heart,image1,image2,image3}) {
   return (
-    <MDBCard className='Mdbcard' style={{ maxWidth: '19rem'  }}>
+    <MDBCard className='Mdbcard' style={{ maxWidth: '15.5rem',paddingleft:'8rem' }}>
       <div className=' mb-5'>
         <div  className='images d-flex position-relative mb-5'>
         <MDBCol lg='2'  className='mb-4 position-absolute'>
@@ -57,7 +57,7 @@ export default function App({url,Title,text,text2,Heart,image1,image2,image3}) {
         </MDBCardText>
         <div className='position-relative pb-3'>
         <MDBCardText className='Mdbtext second position-absolute' style={{marginTop:"-15px"}}>{text2}</MDBCardText>
-        <MDBCardText className='Mdbtext_three  ' style={{marginTop:"-15px",}}><FaHeartbeat/><span style={{marginLeft:"5px"}}>{Heart}</span></MDBCardText>
+        <MDBCardText className='Mdbtext_three  ' style={{marginTop:"-15px",}}><FiHeart/><span style={{marginLeft:"5px"}}>{Heart}</span></MDBCardText>
         </div>
        
          

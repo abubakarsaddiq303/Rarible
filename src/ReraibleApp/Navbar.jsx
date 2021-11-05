@@ -35,7 +35,7 @@ export default function Navbar() {
     <MDBNavbar style={{boxShadow:'none'}} expand='lg' light bgColor='light'>
       <MDBContainer fluid>
       <MDBNavbarBrand className='NavBrand' href='#'><img src={Rlogo} alt=" NOthing" style={{height:'3.3rem'}} /></MDBNavbarBrand>
-  <div className='navbar-text'><span><strong className='Reriblesize'>Rarible</strong></span></div>
+  <div className='navbar-text'><span><strong className='Reriblesize' style={{color:'black'}}>Rarible</strong></span></div>
 
         <MDBNavbarToggler
           aria-controls='navbarSupportedContent'
@@ -54,7 +54,7 @@ export default function Navbar() {
             <MDBNavbarItem className='SearchNavitem'>
               <MDBNavbarLink className='NLink first text-nowrap'> <div class="SearchDiv position-relative">
 	
-	<div class="SearchSpan"><span><GrSearchAdvanced/></span></div>
+	<div class="SearchSpan"></div>
     <input type="text" class="input" 
 	placeholder="Collection,item or user"/>
      </div></MDBNavbarLink>
@@ -80,7 +80,7 @@ export default function Navbar() {
               </MDBNavbarLink>
             </MDBNavbarItem>
 
-            <MDBNavbarItem>
+            <MDBNavbarItem >
               <MDBDropdown>
                 <MDBDropdownToggle tag='a' className='nav-link text-nowrap'>
                   Community

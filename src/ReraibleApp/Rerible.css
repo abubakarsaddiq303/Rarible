@@ -17,12 +17,13 @@
      text-align: center;
      padding: .6rem 0%;
      background: linear-gradient(
-91.34deg, rgb(12, 80, 255) 6.98%, rgb(91, 157, 255) 46.77%, rgb(255, 116, 241) 78.38%);
+            91.34deg, rgb(12, 80, 255) 6.98%, rgb(91, 157, 255) 46.77%, rgb(255, 116, 241) 78.38%);
      font-size: 1.3rem;
      font-weight: bold;
      color: white;
  }
  .NavBrand{
+
      margin-left: 1rem;
  }
 
@@ -167,9 +168,7 @@
     background-size: cover;
     border-radius: 20px;
  }
- .card{
-     border: none !important;
- }
+ 
  .row{
      margin-left: 0%;
      margin-right: 20px;
@@ -177,6 +176,7 @@
      padding-right: 0%;
  }
  select{
+     padding-left: 8px;
     border:none;
     outline:none;
  }
@@ -199,12 +199,12 @@
  .Cimg{
      margin: 40px;
     width: 100px;
-    height: 100px;
+    height: 65px;
     border-radius: 50%;
  }
  .cardbody{
      
-     margin-top: 50px;
+     margin-top: 27px;
      margin-left: 35px;
  }
  .para{
@@ -223,6 +223,7 @@
      height: 3rem;
  }
  .Mdbcard{
+     border: 1px solid !important;
      padding: 20px;
      border: rgba(0, 0, 0, 0.247) solid 1px;
  }
@@ -325,12 +326,13 @@
       width: 200px;
   }
   .ExplorDiv.last{
-      padding-right: 4rem !important;
+      padding-right: 24rem !important;
       position: absolute;
     
       right: -280px;
   }
   .ExploreCard2{
+      padding-top: 2rem;
       width: 20%;
   }
   .LoadMorebtn{
@@ -377,6 +379,9 @@
       
 }
 
+.card{
+    box-shadow: none !important;
+}
   
   .wrapper{
 
@@ -433,6 +438,7 @@ ul{
     list-style: none;
 }
 ul li{
+    padding-left: 1rem;
     font-size: 1.2rem;
     font-weight: bold;
     line-height: 2.9rem;
@@ -451,3 +457,76 @@ ul li{
     }
 
 }
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+
+   
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {   
+
+    .Ssubcol{
+        padding-left: 10.5rem;
+        width: 31%;
+        height: 180px;
+        font-size: 16px;
+    }
+    .ContentTop{
+       
+        padding-left: 2rem;
+    }
+
+    .select{
+        display: flex;
+        position: absolute;
+        right: -228px;
+       
+        font-size: 2.2rem;
+     }
+
+     
+
+     .d-flex{
+         
+         flex-wrap: wrap;
+         padding-right: 0rem;
+     }
+     .Mdbcard{
+         
+padding-top: 2rem;
+
+     }
+     .language{
+         width: 10rem;
+     }
+     .HCollcol{
+         width: 0% !important;
+     }
+
+
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+
+   
+
+    
+
+ }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+
+
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+
+
+
+}
+

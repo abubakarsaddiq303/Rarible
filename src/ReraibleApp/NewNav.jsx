@@ -27,6 +27,8 @@ export default function NewNav() {
             <a className='nav-link' href="">How it work</a>
 
         </li>
+       
+
         <li className='nav-item dropdown'>
             <div className="btn-group">
   <button

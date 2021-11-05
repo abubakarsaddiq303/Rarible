@@ -15,8 +15,8 @@ export default function card({number}) {
           <MDBCardImage src='https://mdbcdn.b-cdn.net/wp-content/uploads/2020/06/vertical.jpg' alt='...' fluid  className='Cimg'/>
         </MDBCol>
         <MDBCol md='8'>
-          <MDBCardBody className='cardbody' style={{width:'142px'}}>
-            <MDBCardTitle className='font-weight-bold color-black '>Art Blocks</MDBCardTitle>
+          <MDBCardBody className='cardbody' style={{width:'152px'}}>
+            <MDBCardTitle className='font-weight-bold color-black' s>Art Blocks</MDBCardTitle>
             <MDBCardText>
               $23,54,22
             </MDBCardText>
