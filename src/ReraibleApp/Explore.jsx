@@ -80,9 +80,7 @@ export default function Explore() {
                 <div className='ExplorDiv'>
                     <ExploreCard Ricon={<CgDollar/>} Title={'Price range'}/>
                 </div>
-                <div className='ExplorDiv last'style={{paddingRight:'8rem'}} >
-                    <ExploreCard  Ricon={<BiAlignJustify/>} Title={'Recently added'}/>
-                </div>
+              
                
                 
                     

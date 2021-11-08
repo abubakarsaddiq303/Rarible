@@ -326,7 +326,11 @@
       width: 200px;
   }
   .ExplorDiv.last{
+<<<<<<< HEAD
       padding-right: 24rem !important;
+=======
+      padding-right: 29rem !important;
+>>>>>>> 9c69f0581b211cd02aae037c95aba5a0dd641565
       position: absolute;
     
       right: -280px;
