@@ -16,7 +16,7 @@ export default function MainContent() {
   <option value="3">one week</option>
 </select></div>
         </div>
-        <div className='row'>
+        <div className='row main'>
          
           {arr.map((item,index)=>{
             return( 

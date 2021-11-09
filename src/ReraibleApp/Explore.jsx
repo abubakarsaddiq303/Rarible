@@ -24,35 +24,35 @@ import { BiAlignJustify } from "react-icons/bi";
 export default function Explore() {
     const arr={
         Item:[
-            {url:first,Title:'Fire Gun',text:'Note for sale',text2:'1.1 wETH',Heart:'55',image1:sixth,image2:seventh,image3:Rlogo},
-            {url:second,Title:'King Logo',text:'From 25 Eth to 1/10',text2:'4.2 wETH',Heart:'64',image1:fifth,image2:third,image3:Rlogo},
-            {url:third,Title:'Girl Attitude',text:'From 11 EtH to 2/4',text2:'3 wETH',Heart:'123',image1:sixth,image2:first,image3:Rlogo},
-            {url:fourth,Title:'Lahor Logo',text:'Note for slae 1/1',text2:'1.53 wETH',Heart:'86',image1:eighth,image2:fourth,image3:Rlogo},
-            {url:fifth,Title:'Lion Walp',text:'Top Tranding 23 Eth',text2:'5.52 wETH',Heart:'99',image1:seventh,image2:sixth,image3:Rlogo},
+            {url:first,Title:'Fire Gun',text:'Note for sale',text2:'1 wETH',Heart:'55',image1:sixth,image2:seventh,image3:Rlogo},
+            {url:second,Title:'King Logo',text:'From 25 Eth ',text2:'4 wETH',Heart:'64',image1:fifth,image2:third,image3:Rlogo},
+            {url:third,Title:'Girl Attitude',text:'From 11 EtH ',text2:'3 wETH',Heart:'123',image1:sixth,image2:first,image3:Rlogo},
+            {url:fourth,Title:'Lahor Logo',text:'Note for sale 1/1',text2:'1 wETH',Heart:'86',image1:eighth,image2:fourth,image3:Rlogo},
+            {url:fifth,Title:'Lion Walp',text:'Top Tranding ',text2:'5 wETH',Heart:'99',image1:seventh,image2:sixth,image3:Rlogo},
 
-            {url:first,Title:'Fire Gun',text:'Note for sale',text2:'1.1 wETH',Heart:'55',image1:sixth,image2:seventh,image3:Rlogo},
-            {url:second,Title:'King Logo',text:'From 25 Eth to 1/10',text2:'4.2 wETH',Heart:'64',image1:fifth,image2:third,image3:Rlogo},
-            {url:third,Title:'Girl Attitude',text:'From 11 EtH to 2/4',text2:'3 wETH',Heart:'123',image1:sixth,image2:first,image3:Rlogo},
-            {url:fourth,Title:'Lahor Logo',text:'Note for slae 1/1',text2:'1.53 wETH',Heart:'86',image1:eighth,image2:fourth,image3:Rlogo},
-            {url:fifth,Title:'Lion Walp',text:'Top Tranding 23 Eth',text2:'5.52 wETH',Heart:'99',image1:seventh,image2:sixth,image3:Rlogo},
+            {url:first,Title:'Fire Gun',text:'Note for sale',text2:'1 wETH',Heart:'55',image1:sixth,image2:seventh,image3:Rlogo},
+            {url:second,Title:'King Logo',text:'From 25 Eth ',text2:'4 wETH',Heart:'64',image1:fifth,image2:third,image3:Rlogo},
+            {url:third,Title:'Girl Attitude',text:'From 11 EtH ',text2:'3 wETH',Heart:'123',image1:sixth,image2:first,image3:Rlogo},
+            {url:fourth,Title:'Lahor Logo',text:'Note for sale ',text2:'1 wETH',Heart:'86',image1:eighth,image2:fourth,image3:Rlogo},
+            {url:fifth,Title:'Lion Walp',text:'Top Tranding ',text2:'5 wETH',Heart:'99',image1:seventh,image2:sixth,image3:Rlogo},
 
-            {url:first,Title:'Fire Gun',text:'Note for sale',text2:'1.1 wETH',Heart:'55',image1:sixth,image2:seventh,image3:Rlogo},
-            {url:second,Title:'King Logo',text:'From 25 Eth to 1/10',text2:'4.2 wETH',Heart:'64',image1:fifth,image2:third,image3:Rlogo},
-            {url:third,Title:'Girl Attitude',text:'From 11 EtH to 2/4',text2:'3 wETH',Heart:'123',image1:sixth,image2:first,image3:Rlogo},
-            {url:fourth,Title:'Lahor Logo',text:'Note for slae 1/1',text2:'1.53 wETH',Heart:'86',image1:eighth,image2:fourth,image3:Rlogo},
-            {url:fifth,Title:'Lion Walp',text:'Top Tranding 23 Eth',text2:'5.52 wETH',Heart:'99',image1:seventh,image2:sixth,image3:Rlogo},
+            {url:first,Title:'Fire Gun',text:'Note for sale',text2:'1 wETH',Heart:'55',image1:sixth,image2:seventh,image3:Rlogo},
+            {url:second,Title:'King Logo',text:'From 25 Eth',text2:'4 wETH',Heart:'64',image1:fifth,image2:third,image3:Rlogo},
+            {url:third,Title:'Girl Attitude',text:'From 11 EtH',text2:'3 wETH',Heart:'123',image1:sixth,image2:first,image3:Rlogo},
+            {url:fourth,Title:'Lahor Logo',text:'Note for sale',text2:'1 wETH',Heart:'86',image1:eighth,image2:fourth,image3:Rlogo},
+            {url:fifth,Title:'Lion Walp',text:'Top Tranding ',text2:'5 wETH',Heart:'99',image1:seventh,image2:sixth,image3:Rlogo},
 
-            {url:first,Title:'Fire Gun',text:'Note for sale',text2:'1.1 wETH',Heart:'55',image1:sixth,image2:seventh,image3:Rlogo},
-            {url:second,Title:'King Logo',text:'From 25 Eth to 1/10',text2:'4.2 wETH',Heart:'64',image1:fifth,image2:third,image3:Rlogo},
-            {url:third,Title:'Girl Attitude',text:'From 11 EtH to 2/4',text2:'3 wETH',Heart:'123',image1:sixth,image2:first,image3:Rlogo},
-            {url:fourth,Title:'Lahor Logo',text:'Note for slae 1/1',text2:'1.53 wETH',Heart:'86',image1:eighth,image2:fourth,image3:Rlogo},
-            {url:fifth,Title:'Lion Walp',text:'Top Tranding 23 Eth',text2:'5.52 wETH',Heart:'99',image1:seventh,image2:sixth,image3:Rlogo},
+            {url:first,Title:'Fire Gun',text:'Note for sale',text2:'1 wETH',Heart:'55',image1:sixth,image2:seventh,image3:Rlogo},
+            {url:second,Title:'King Logo',text:'From 25 Eth',text2:'4 wETH',Heart:'64',image1:fifth,image2:third,image3:Rlogo},
+            {url:third,Title:'Girl Attitude',text:'From 11 EtH',text2:'3 wETH',Heart:'123',image1:sixth,image2:first,image3:Rlogo},
+            {url:fourth,Title:'Lahor Logo',text:'Note for sale',text2:'1 wETH',Heart:'86',image1:eighth,image2:fourth,image3:Rlogo},
+            {url:fifth,Title:'Lion Walp',text:'Top Tranding ',text2:' wETH',Heart:'99',image1:seventh,image2:sixth,image3:Rlogo},
 
-            {url:first,Title:'Fire Gun',text:'Note for sale',text2:'1.1 wETH',Heart:'55',image1:sixth,image2:seventh,image3:Rlogo},
-            {url:second,Title:'King Logo',text:'From 25 Eth to 1/10',text2:'4.2 wETH',Heart:'64',image1:fifth,image2:third,image3:Rlogo},
-            {url:third,Title:'Girl Attitude',text:'From 11 EtH to 2/4',text2:'3 wETH',Heart:'123',image1:sixth,image2:first,image3:Rlogo},
-            {url:fourth,Title:'Lahor Logo',text:'Note for slae 1/1',text2:'1.53 wETH',Heart:'86',image1:eighth,image2:fourth,image3:Rlogo},
-            {url:fifth,Title:'Lion Walp',text:'Top Tranding 23 Eth',text2:'5.52 wETH',Heart:'99',image1:seventh,image2:sixth,image3:Rlogo},
+            {url:first,Title:'Fire Gun',text:'Note for sale',text2:'1 wETH',Heart:'55',image1:sixth,image2:seventh,image3:Rlogo},
+            {url:second,Title:'King Logo',text:'From 25 Eth',text2:'4 wETH',Heart:'64',image1:fifth,image2:third,image3:Rlogo},
+            {url:third,Title:'Girl Attitude',text:'From 11',text2:'3 wETH',Heart:'123',image1:sixth,image2:first,image3:Rlogo},
+            {url:fourth,Title:'Lahor Logo',text:'Note for sale',text2:'1 wETH',Heart:'86',image1:eighth,image2:fourth,image3:Rlogo},
+            {url:fifth,Title:'Lion Walp',text:'Top Tranding ',text2:'5 wETH',Heart:'99',image1:seventh,image2:sixth,image3:Rlogo},
         ],
         DropdownLinks:[
             {link1:'All',link2:'Art',link3:'Photography',link4:'Metaverses',link5:'Music'},
@@ -64,7 +64,7 @@ export default function Explore() {
 
     return (
         <>
-        <div>
+        <div className='Explore'>
         <div className='container d-flex mt-5 position-relative  p-0' style={{marginLeft:"30px"}}>
                 
         <h1 style={{marginLeft:'30px',color:'black',fontWeight:'bold'}}> Explore </h1>
@@ -86,7 +86,7 @@ export default function Explore() {
                     
       
             </div>
-            <div>
+            <div className='Exp'>
             <div className=' row mt-3 d-flex' style={{marginLeft:'15px'}} > 
             {arr.Item.map((itm,ind)=>{
                 return( <div className='col-lg-3 col-sm-4 ExploreCard2 ' >

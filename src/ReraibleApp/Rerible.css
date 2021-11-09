@@ -326,12 +326,9 @@
       width: 200px;
   }
   .ExplorDiv.last{
-<<<<<<< HEAD
       padding-right: 24rem !important;
-=======
       padding-right: 29rem !important;
->>>>>>> 9c69f0581b211cd02aae037c95aba5a0dd641565
-      position: absolute;
+     position: absolute;
     
       right: -280px;
   }
@@ -461,14 +458,14 @@ ul li{
     }
 
 }
-/* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { 
 
-   
- }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (max-width: 768px) {   
+
+    .SearchDiv{
+        width: 720px;
+    }
 
     .Ssubcol{
         padding-left: 10.5rem;
@@ -480,7 +477,12 @@ ul li{
        
         padding-left: 2rem;
     }
-
+    .main{
+        margin-left: 5rem;
+    }
+.card-img-top{
+    height: 130px !important;
+}
     .select{
         display: flex;
         position: absolute;
@@ -489,12 +491,14 @@ ul li{
         font-size: 2.2rem;
      }
 
-     
+     .ContentTop{
+         padding-left: 0px!important;
+     }
 
      .d-flex{
          
          flex-wrap: wrap;
-         padding-right: 0rem;
+         padding-right: 0rem !important;
      }
      .Mdbcard{
          
@@ -505,32 +509,279 @@ padding-top: 2rem;
          width: 10rem;
      }
      .HCollcol{
-         width: 0% !important;
+         width: 0px !important;
      }
 
+     .Hotbids{
+         width: 750px !important;
+         
+     }
+     .bid{
+         
+         padding-right: 1rem;
+         padding-top: 1rem;
+         
+     }
 
- }
+     .Saller{
+         margin-left: 5rem !important;
+     }
+     .Auction{
+         padding-right: 0px!important;
+         padding-left: 2rem;
+     }
+    .Aut{
+        padding-right: 1rem;
+        padding-top: 1rem;
+    }
+    .HotCollCards{
+        padding-right: 0px!important;
+        margin-left: 2rem!important;
+        width: 43rem !important;
+    }
+    .col-sm-3{
+        width: 14rem !important;
+        padding-left: 0.5rem;
+        padding-top: 2rem;
+    }
+    .HCollcol{
+    left: 63px!important;
 
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) { 
 
-   
+}
+.Mdbbody{
+    margin-left: -34px;
+}
 
-    
-
- }
-
-/* X-Large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { 
+.ExploreCard2{
+    width: 14rem!important;
+}
 
 
 
- }
+.Exp{
+    margin-left: 2rem!important;
+}
 
-/* XX-Large devices (larger desktops, 1400px and up)*/
-@media (min-width: 1400px) { 
+ul li{
+padding-right: 0rem !important;
+line-height: 2.4rem !important;
+}
+
+.language{
+width: 0px !important;
 
 
 
 }
+
+.searchbtn{
+    left: 180px !important;
+    top: 20px !important;
+}
+
+.wrapper input{
+
+    width: 210px;
+    font-size: 1rem;
+    height: 41px;
+}
+
+.ImButton{
+    width: 90px;
+    font-size: 1rem;
+    height: 41px;
+}
+
+.ldbtn{
+    padding-right: 7rem;
+}
+
+
+
+.FooterLast{
+    height: 710px;
+}
+.FLastMaindiv{
+    height: 40rem;
+}
+ }
+
+/* Large devices (mobile, 320px and 425px)*/
+@media (max-width:425px) and (min-width:320px){ 
+   
+    .SearchDiv{
+        width: 380px;
+    }
+    
+    .FirstCol{
+       
+        height: 360px;
+        
+        
+   
+       }
+
+       .cardbody{
+           width: 151px;
+           margin-top: -43 !important;
+       }
+    .row{
+        margin-right: 0px !important;
+    }
+    .Mdbcard{
+        margin-left: -3rem !important;
+        margin: 0 auto;
+         width: 15.5rem !important;
+        padding-top: 1rem;
+        
+             }
+
+             .Aut{
+                 padding-right: 3rem !important;
+             }
+
+    .Cardimages{
+        margin-bottom: 2rem;
+        width: 26px;
+        height: 26px;
+    }
+
+
+    .myCard{
+        height: 326px;
+        width: 177px;
+    }
+
+    .mb-5{
+        margin-bottom: 2rem !important;
+    }
+    .option{
+        left: 90px;
+    }
+    .Mdbbody{
+        width: 12rem;
+        margin-left: -21px;
+        margin-top: -16px;
+    }
+    .dropdown{
+        padding-left: 4rem !important;
+    }
+    .select{
+        font-size: 1.6rem;
+        
+    }
+    .Auction{
+        width: 0px !important;
+        padding-left: 97px;
+    }
+
+    .container{
+        width: 0px !important;
+    }
+    
+    
+    .HotCollCards{
+        padding-right: 0px!important;
+        margin-left: 5rem!important;
+        width: 17rem !important;
+    }
+    .ExpButton{
+        padding-bottom: 0px !important;
+        color: cornflowerblue;
+        height: 44px !important;
+        width: 145px;
+        
+    }
+    
+    .Exp{
+       
+        margin-left: -4rem;
+    }
+
+    .ExploreCard2{
+padding-left: 5rem;
+       width: 12rem !important;
+    }
+    .Hotbids{
+        width: 400px !important;
+    }
+
+    .bid{
+       
+        padding-left: 5rem;
+        padding-top: 1rem;
+    }
+    .d-flex{
+       flex-wrap: wrap;
+    }
+
+.wrapper{
+    padding: 0px !important;
+    margin-top: 2rem;
+}
+
+    .wrapper input{
+     padding-right: 1rem;
+        width: 133px;
+    }
+    .searchbtn{
+        left: 2px !important;
+        top: 66px !important;
+    }
+
+    .h4{
+        margin-left: 0px !important;
+    }
+    .col-2.colTwo{
+        margin-right: -7rem;
+        padding-right: 4rem;
+        width: 12rem;
+    }
+    .form-select{
+        width: 300px;
+    }
+    .language{
+        margin-left: -57px !important;
+    }
+
+ }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (max-width:1440px) and (min-width:1024px) { 
+
+    .NLink{
+        font-size: 1rem;
+        width: 90px;
+    }
+    .SearchDiv input{
+        height: 2rem;
+       text-indent: 1rem;
+        width: 250px !important;
+    }
+    ul li{
+font-size: none;
+padding-left: 0px !important;
+    }
+    .navbtn{
+        height: 2rem;
+        margin-left: 3rem;
+        width: 5rem;
+    }
+    .SearchNavitem{
+        width: 25%;
+    }
+
+
+
+
+
+
+ }
+
+
+
+
+
+
 

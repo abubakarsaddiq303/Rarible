@@ -25,7 +25,7 @@ export default function MainContent() {
 
 
         </div>
-        <div className='row'>
+        <div className='row Saller'>
          
           {arr.map((item,index)=>{
             return( 

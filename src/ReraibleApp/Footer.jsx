@@ -6,7 +6,7 @@ export default function Footer() {
     return (
         <>
         <div className=' mt-5'>
-            <div >
+            <div className='ldbtn'>
             <MDBBtn rounded outline  className='LoadMorebtn'>Load more</MDBBtn>
             </div>
             <div className='FooterLast'>
@@ -55,11 +55,8 @@ export default function Footer() {
                     </div>
                  </div>
                  <div className=" col-4 colFour">
-<<<<<<< HEAD
                      <div className="language" style={{marginLeft:'30px',width:'417px'}}>
-=======
                      <div style={{marginLeft:'60px',width:'50%'}}>
->>>>>>> 9c69f0581b211cd02aae037c95aba5a0dd641565
                      <h5 style={{fontWeight:'bold',color:'black',marginLeft:'5px'}}>Language</h5>
                       <div style={{marginTop:'1.4rem'}}>
                       <select className="form-select" aria-label="Default select example" >
@@ -77,6 +74,7 @@ export default function Footer() {
             </div>
         </div>
             
+        </div>
         </>
     )
 }
