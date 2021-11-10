@@ -55,7 +55,7 @@ export default function Footer() {
                     </div>
                  </div>
                  <div className=" col-4 colFour">
-                     <div className="language" style={{marginLeft:'30px',width:'417px'}}>
+                     <div className="language" style={{marginLeft:'30px'}}>
                      <div style={{marginLeft:'60px',width:'50%'}}>
                      <h5 style={{fontWeight:'bold',color:'black',marginLeft:'5px'}}>Language</h5>
                       <div style={{marginTop:'1.4rem'}}>
