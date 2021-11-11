@@ -28,7 +28,7 @@ export default function Hotbids() {
         <>
         <div className='Container Hotbids m-3 '>
             <h1 className='font-weight-bold hotbids ' style={{color:'black',marginLeft:'5px'}}>Hot Bids 🔥</h1>
-            <div className='mt-5 d-flex' style={{paddingRight:'20rem'}}> 
+            <div className='mt-5 d-flex bidscroll' style={{paddingRight:'20rem'}}> 
             {arr.Item.map((itm,ind)=>{
                 return( <div className='col-lg-3 col-sm-4 bid '>
                 <HotbidCard

@@ -100,6 +100,29 @@
 
  }
  
+
+.left{
+    padding-left: 2rem;
+   
+    font-size: 3rem !important;
+    padding-top: 16rem;
+    color: rgb(255, 255, 255);
+}
+
+.right{
+    padding-right: 2rem;
+    font-size: 3rem !important;
+    top: 24.5rem;
+    color: rgb(8, 0, 0);
+}
+
+.left2{
+    padding-left: 1rem;
+   padding-top: 7rem;
+    font-size: 3rem !important;
+    
+    
+}
  .FirstCol{
      margin: 0%;
      padding: 0%;
@@ -607,11 +630,19 @@ width: 0px !important;
 }
  }
 
-/* Large devices (mobile, 320px and 425px)*/
+/*  devices (mobile, 320px and 425px)*/
 @media (max-width:425px) and (min-width:320px){ 
+   
+
+
+
+
    
     .SearchDiv{
         width: 380px;
+    }
+    .Head{
+        flex-direction: column;
     }
     
     .FirstCol{
@@ -626,11 +657,51 @@ width: 0px !important;
            width: 151px;
            margin-top: -43 !important;
        }
+
+.SecondCol{
+flex-direction: column;
+    overflow: scroll;
+
+}
+
+
+
+
+.cardbody{
+    margin-left: -92px !important;
+    margin-top: 17px !important;
+}
+
+
+.para{
+    
+    padding-top: 51px;
+    margin-top: 0px;
+     margin-left: 0px;
+     margin-right: 0px;
+     font-size: 1.5rem;
+     font-weight: 0;
+}
+
+.main{
+    padding-top: 3rem;
+    padding-left: 4rem;
+    margin-left: 0px;
+}
+.Cimg{
+    margin-top: 2rem;
+    width: 71px;
+    height: 65px;
+    border-radius: 50%;
+}
+
     .row{
+        
+        flex-wrap: nowrap !important;
         margin-right: 0px !important;
     }
     .Mdbcard{
-        margin-left: -3rem !important;
+        margin-left: 3rem !important;
         margin: 0 auto;
          width: 15.5rem !important;
         padding-top: 1rem;
@@ -649,8 +720,9 @@ width: 0px !important;
 
 
     .myCard{
-        height: 326px;
-        width: 177px;
+        
+        height: 160px;
+       
     }
 
     .mb-5{
@@ -664,29 +736,52 @@ width: 0px !important;
         margin-left: -21px;
         margin-top: -16px;
     }
-    .dropdown{
-        padding-left: 4rem !important;
-    }
+   
     .select{
+        overflow: scroll;
         font-size: 1.6rem;
         
     }
+   
     .Auction{
-        width: 0px !important;
-        padding-left: 97px;
+        overflow: scroll;
+        width: 401px !important;
+       
     }
 
-    .container{
-        width: 0px !important;
-    }
+   
     
-    
-    .HotCollCards{
+    .col-sm-3{
+        
         padding-right: 0px!important;
-        margin-left: 5rem!important;
-        width: 17rem !important;
+        margin-left: 4rem!important;
+        width: 213rem !important;
+       
     }
+    .HotCollCards{
+        width: 331px !important;
+        overflow: scroll;
+       padding-right: 393px;
+        margin-left: 25px !important;
+        
+       
+       
+    }
+
+    .ripple-surface{
+        width: max-content;
+    }
+    .ExplorDiv{
+        width: 148px !important;
+    }
+    .Explorbtn{
+        
+        margin-left: 0px !important;
+        overflow: scroll;
+    }
+
     .ExpButton{
+        overflow: scroll;
         padding-bottom: 0px !important;
         color: cornflowerblue;
         height: 44px !important;
@@ -695,27 +790,42 @@ width: 0px !important;
     }
     
     .Exp{
-       
+        overflow: scroll;
         margin-left: -4rem;
     }
 
     .ExploreCard2{
-padding-left: 5rem;
-       width: 12rem !important;
+        
+        padding-left: 0rem;
+       width: 24rem !important;
     }
     .Hotbids{
+        
         width: 400px !important;
     }
 
     .bid{
-       
-        padding-left: 5rem;
+        
+        padding-left: 2rem;
         padding-top: 1rem;
     }
     .d-flex{
-       flex-wrap: wrap;
+       
+       flex-wrap:nowrap;
+    }
+   
+    .bidscroll{
+        overflow: scroll;
     }
 
+    .Saller{
+        margin-left: 2rem !important;
+        margin-right: 1rem !important;
+        overflow: scroll;
+       padding-right: 5rem;
+    }
+       
+    
 .wrapper{
     padding: 0px !important;
     margin-top: 2rem;
@@ -738,11 +848,21 @@ padding-left: 5rem;
         padding-right: 4rem;
         width: 12rem;
     }
+
+    .col-4{
+        width: 119;
+    }
+
     .form-select{
         width: 300px;
     }
     .language{
-        margin-left: -57px !important;
+padding-top: 30rem;
+        margin-left: -338px !important;
+       
+    }
+    .main{
+        overflow: scroll;
     }
 
  }
@@ -772,6 +892,7 @@ padding-left: 0px !important;
         width: 25%;
     }
 .Auction{
+
     padding-right: 3rem !important;
 
 }

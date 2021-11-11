@@ -65,7 +65,7 @@ export default function Explore() {
     return (
         <>
         <div className='Explore'>
-        <div className='container d-flex mt-5 position-relative  p-0' style={{marginLeft:"30px"}}>
+        <div className='container d-flex mt-5 position-relative  p-0 Explorbtn ' style={{marginLeft:"30px"}}>
                 
         <h1 style={{marginLeft:'30px',color:'black',fontWeight:'bold'}}> Explore </h1>
                 <div className='ExplorDiv'>
@@ -89,7 +89,7 @@ export default function Explore() {
             <div className='Exp'>
             <div className=' row mt-3 d-flex' style={{marginLeft:'15px'}} > 
             {arr.Item.map((itm,ind)=>{
-                return( <div className='col-lg-3 col-sm-4 ExploreCard2 ' >
+                return( <div className='col-lg-3 col-sm-4 ExploreCard2 '>
                 <HotbidCard
                 key={ind}
                  url={itm.url}

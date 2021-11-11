@@ -66,9 +66,10 @@ export default function Footer() {
   <option value="3">日本語</option>
 </select>
                       </div>
+                      
                      </div>
                  </div>
-             
+            
 
          </div>
             </div>
