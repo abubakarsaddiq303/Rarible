@@ -635,7 +635,10 @@ width: 0px !important;
    
 
 
-
+    .TopSpan{
+        font-size: 1.0rem;
+        height: 2.4 !important;
+    }
 
    
     .SearchDiv{
@@ -834,6 +837,9 @@ flex-direction: column;
     .wrapper input{
      padding-right: 1rem;
         width: 133px;
+    }
+    .LoadMorebtn{
+        margin-left: 120px;
     }
     .searchbtn{
         left: 2px !important;
